@@ -1496,14 +1496,32 @@ button:hover {
   }
 }
 
+/* Ajustes para la sección Get In Touch en móvil */
 @media (max-width: 768px) {
   .contact_section .row {
-    flex-direction: column-reverse; /* primero form, luego imagen */
+    flex-direction: column; /* apila formulario e imagen */
+    align-items: center;    /* centra el contenido */
+  }
+
+  .contact_section .col-md-6 {
+    width: 100%;
+    max-width: 500px; /* opcional: limita ancho para que no sea gigante */
+    margin-bottom: 20px;
   }
 
   .contact_section .img-box {
-    margin-top: 20px;
+    width: 100% !important;   /* ocupa ancho completo en móvil */
+    max-width: 500px;         /* igual que el formulario */
+    height: auto !important;  /* deja que la altura se ajuste automáticamente */
+  }
+
+  .contact_section .img-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* evita deformaciones */
   }
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
