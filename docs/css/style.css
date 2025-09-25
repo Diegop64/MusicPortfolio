@@ -1484,4 +1484,26 @@ button:hover {
   background-color: #f0a010;
 }
 
+@media (max-width: 768px) {
+  .pricing-tiers {
+    flex-direction: column;
+    align-items: center; /* centra las cajas */
+  }
+
+  .tier {
+    width: 90%;   /* ocupa casi todo el ancho */
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_section .row {
+    flex-direction: column-reverse; /* primero form, luego imagen */
+  }
+
+  .contact_section .img-box {
+    margin-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
