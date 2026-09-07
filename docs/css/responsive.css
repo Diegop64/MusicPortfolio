@@ -1,4 +1,14 @@
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    padding: 7px 10px; /* Reducimos de 25px a 10px para que todo quepa en una línea */
+    margin: 0 5px;     /* Reducimos el margen lateral entre botones */
+    font-size: 14px;   /* Un pelín más pequeña la letra si es necesario */
+  }
+  
+  .navbar-brand img {
+    width: 120px; /* Achicamos un poco el logo en pantallas medianas */
+  }
+}
 
 @media (max-width: 992px) {
   .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {

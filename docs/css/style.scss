@@ -164,6 +164,18 @@ body {
 
 }
 
+// En la home, el panel de imagen de fondo cubre el 33% izquierdo del hero:
+// desplazamos solo el logo para que no quede encima de la foto.
+body:not(.sub_page) .header_section .navbar-brand {
+  margin-left: 33%;
+}
+
+@media (max-width: 991px) {
+  body:not(.sub_page) .header_section .navbar-brand {
+    margin-left: 0;
+  }
+}
+
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item {
   .nav-link {
     padding: 7px 25px;
@@ -171,6 +183,14 @@ body {
     color: #141a1a;
     text-align: center;
     border-radius: 5px;
+    white-space: nowrap;
+
+    &.lang-switch {
+      padding: 7px 10px;
+      margin: 0 2px;
+      font-weight: bold;
+      color: $primary1;
+    }
   }
 
   &.active,
@@ -217,12 +237,12 @@ a:focus {
 
 .navbar {
   .navbar-brand {
-    display: none;
-    align-items: center;
+    position: relative;
+    z-index: 100000;
 
     img {
-      width: 90px;
-      margin-right: 5px;
+      height: 40px;
+      width: auto;
     }
   }
 }

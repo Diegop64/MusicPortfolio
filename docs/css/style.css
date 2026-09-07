@@ -112,12 +112,24 @@ body {
 }
 
 .header_section .container-fluid {
-  padding-right: 25px;
   padding-left: 25px;
+  padding-right: 25px;
 }
 
 .header_section .nav_container {
   margin: 0 auto;
+}
+
+/* En la home, el panel de imagen de fondo cubre el 33% izquierdo del hero:
+   desplazamos solo el logo para que no quede encima de la foto. */
+body:not(.sub_page) .header_section .navbar-brand {
+  margin-left: 33%;
+}
+
+@media (max-width: 991px) {
+  body:not(.sub_page) .header_section .navbar-brand {
+    margin-left: 0;
+  }
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
@@ -126,6 +138,14 @@ body {
   color: #141a1a;
   text-align: center;
   border-radius: 5px;
+  white-space: nowrap;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link.lang-switch {
+  padding: 7px 10px;
+  margin: 0 2px;
+  font-weight: bold;
+  color: #f0b016;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
@@ -163,14 +183,19 @@ a:focus {
 }
 
 .navbar .navbar-brand {
-  display: none;
+  position: relative;
+  z-index: 100000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navbar .navbar-brand img {
-  width: 90px;
+  height: 40px;
+  width: auto;
   margin-right: 5px;
 }
 
@@ -1192,13 +1217,11 @@ html {
 
 .contact_section .img-box .img_overlay {
   position: absolute;
-  width: 70%;
-  height: 75%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  background-color: rgba(44, 41, 37, 0.9);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(44, 41, 37, 0.85);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1212,19 +1235,32 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+  padding: 0 10%;
   font-family: 'Dosis', sans-serif;
 }
 
 .contact_section .img-box .img_overlay h2 {
   text-transform: uppercase;
   font-size: 2.5rem;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   font-weight: 500;
+  color: #ffffff;
 }
 
 .contact_section .img-box .img_overlay a {
+  display: inline-block;
   color: #ffffff;
-  font-size: 18px;
+  background-color: #f0b016;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 28px;
+  border-radius: 5px;
+}
+
+.contact_section .img-box .img_overlay a:hover {
+  background-color: #f0a010;
+  color: #ffffff;
 }
 
 .info_section {
@@ -1469,7 +1505,9 @@ p {
   color: #777;
 }
 
-button {
+button,
+.cta-button {
+  display: inline-block;
   background-color: #f0b016;
   color: #fff;
   padding: 10px 20px;
@@ -1480,8 +1518,10 @@ button {
   margin-top: 30px;
 }
 
-button:hover {
+button:hover,
+.cta-button:hover {
   background-color: #f0a010;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
