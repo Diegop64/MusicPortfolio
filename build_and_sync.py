@@ -17,7 +17,7 @@ import re
 import json
 from PIL import Image
 
-BASE_DIR = r"C:\Users\DiegoOlmosPallares\MusicPortfolio"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DOCS_DIR = os.path.join(BASE_DIR, 'docs')
 IMG_DIR = os.path.join(DOCS_DIR, 'images')
 
@@ -47,6 +47,26 @@ def optimize_images():
                         print(f"Generated {base}.webp")
                     except Exception as e:
                         print(f"Error converting {f}: {e}")
+
+def replace_balanced_div(content, open_tag, replacement):
+    """
+    Replaces a <div ...>...</div> block, matching the CORRECT closing tag by
+    tracking nesting depth, instead of a naive non-greedy regex (which stops
+    at the first nested </div> and corrupts the file, e.g. duplicating boxes).
+    `open_tag` must be the exact opening tag string, e.g.
+    '<div class="portfolio_container slick-carousel">'.
+    """
+    start = content.find(open_tag)
+    if start == -1:
+        raise ValueError(f"Could not find opening tag: {open_tag}")
+    pos = start + len(open_tag)
+    depth = 1
+    for m in re.finditer(r'<div\b|</div>', content[pos:]):
+        depth += -1 if m.group(0) == '</div>' else 1
+        if depth == 0:
+            end = pos + m.end()
+            return content[:start] + replacement + content[end:]
+    raise ValueError(f"Could not find matching closing </div> for: {open_tag}")
 
 def render_box(track, lang='en', prefix=''):
     title = track['title'][lang]
@@ -186,7 +206,7 @@ def update_portfolio_page(file_path, tracks, lang='en', prefix=''):
     # Replace portfolio_container contents
     boxes_html = '\n'.join([render_box(t, lang, prefix) for t in tracks])
     container_replacement = f'<div class="portfolio_container slick-carousel">\n{boxes_html}\n    </div>'
-    content = re.sub(r'<div class="portfolio_container slick-carousel">[\s\S]*?</div>', container_replacement, content)
+    content = replace_balanced_div(content, '<div class="portfolio_container slick-carousel">', container_replacement)
 
     # Clean scripts: remove dynamic injection script
     content = re.sub(r'\s*<script type="text/javascript" src="[^"]*tracks\.js"></script>\s*<script>[\s\S]*?document\.head\.appendChild\(ldScript\);\s*\}\)\(\);\s*</script>', '', content)
@@ -212,12 +232,12 @@ def update_index_page(file_path, tracks, lang='en', prefix=''):
     # Slider nav thumbs (first 4)
     thumbs_html = '\n'.join([render_hero_thumb(t, lang, prefix) for t in tracks[:4]])
     nav_replacement = f'<div class="slider slider-nav slick_slider-nav">\n{thumbs_html}\n                </div>'
-    content = re.sub(r'<div class="slider slider-nav slick_slider-nav">[\s\S]*?</div>', nav_replacement, content)
+    content = replace_balanced_div(content, '<div class="slider slider-nav slick_slider-nav">', nav_replacement)
 
     # Portfolio section boxes
     boxes_html = '\n'.join([render_box(t, lang, prefix) for t in tracks])
     container_replacement = f'<div class="portfolio_container slick-carousel">\n{boxes_html}\n    </div>'
-    content = re.sub(r'<div class="portfolio_container slick-carousel">[\s\S]*?</div>', container_replacement, content)
+    content = replace_balanced_div(content, '<div class="portfolio_container slick-carousel">', container_replacement)
 
     # Clean scripts: remove tracks.js script and runtime DOM/Schema injection script
     content = re.sub(r'\s*<script type="text/javascript" src="[^"]*tracks\.js"></script>\s*<script>[\s\S]*?document\.head\.appendChild\(ldScript\);\s*\}\)\(\);\s*</script>', '', content)
