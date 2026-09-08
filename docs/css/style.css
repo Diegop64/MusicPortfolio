@@ -603,6 +603,8 @@ a:focus {
 
 .portfolio_section .portfolio_container .box img {
   width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .portfolio_section .portfolio_container .box .link-box {
@@ -1502,6 +1504,31 @@ p {
 
 .tier p {
   font-size: 1rem;
+  color: #777;
+}
+
+.faq_section {
+  background-color: #fff;
+}
+
+.faq_item {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+}
+
+.faq_item summary {
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.faq_item p {
+  margin-top: 12px;
+  margin-bottom: 0;
   color: #777;
 }
 
