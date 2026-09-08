@@ -23,8 +23,8 @@
   <title>Portfolio | DolmosMusic - Bandas Sonoras para Videojuegos y Cortometrajes</title>
 
   <!-- slider stylesheet -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+  <link rel="stylesheet" href="../css/slick.min.css">
+  <link rel="stylesheet" href="../css/slick-theme.min.css">
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
@@ -178,9 +178,10 @@
 
   <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="../js/bootstrap.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
   <script type="text/javascript" src="../js/tracks.js"></script>
   <script>
+    // Pinta el portfolio desde js/tracks.js. Va antes de cargar Slick (CDN)
+    // a propósito: así el portfolio aparece aunque el CDN vaya lento o falle.
     (function () {
       var lang = document.documentElement.lang === 'es' ? 'es' : 'en';
       var portfolioContainer = document.querySelector('.portfolio_container.slick-carousel');
@@ -217,28 +218,30 @@
         "@graph": compositions
       });
       document.head.appendChild(ldScript);
-
-      $('.slick-carousel').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [{
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-          }
-        },
-        {
-          breakpoint: 420,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          }
-        }
-        ]
-      });
     })();
+  </script>
+  <script type="text/javascript" src="../js/slick.min.js"></script>
+  <script>
+    $('.slick-carousel').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 420,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+      ]
+    });
   </script>
 
 </body>

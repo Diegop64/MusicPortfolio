@@ -44,8 +44,8 @@
   <meta name="twitter:image" content="https://www.dolmosmusic.com/images/discs-bg.jpg" />
 
   <!--slick slider stylesheet -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+  <link rel="stylesheet" href="css/slick.min.css">
+  <link rel="stylesheet" href="css/slick-theme.min.css">
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -613,11 +613,11 @@ Crafted with passion for music and digital artistry.
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
   <script type="text/javascript" src="js/tracks.js"></script>
   <script>
     // Pinta las bandas sonoras de js/tracks.js en el carrusel de miniaturas
-    // del hero y en la sección de Portfolio, antes de iniciar Slick.
+    // del hero y en la sección de Portfolio. Va antes de cargar Slick (CDN)
+    // a propósito: así el portfolio aparece aunque el CDN vaya lento o falle.
     (function () {
       var lang = document.documentElement.lang === 'es' ? 'es' : 'en';
       var thumbsContainer = document.querySelector('.slider-nav.slick_slider-nav');
@@ -667,6 +667,7 @@ Crafted with passion for music and digital artistry.
       document.head.appendChild(ldScript);
     })();
   </script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
 
    <script>
     $('.slider-for').slick({
