@@ -6,10 +6,10 @@
 //   2. Copia uno de los bloques { ... } de abajo y pégalo en la lista
 //   3. Cambia image, alt, title, url y schema por los de tu proyecto nuevo
 //      (los campos admiten "en" y "es" para las dos versiones del sitio)
-//   4. Guarda el archivo y sube los cambios (git add / commit / push)
-// No hace falta tocar index.html, portfolio.html ni sus versiones en /es/:
-// el título, las miniaturas y los datos para Google (schema) se generan
-// solos a partir de esta lista.
+//   4. Ejecuta en la terminal: python build_and_sync.py
+//      (Esto pre-renderiza todo el HTML estático, crea versiones WebP y actualiza el Schema SEO)
+//   5. Sube los cambios con git: git add . && git commit -m "Nueva pista" && git push
+// No hace falta tocar a mano index.html, portfolio.html ni sus versiones en /es/.
 // ============================================================
 window.TRACKS = [
   {

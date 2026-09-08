@@ -44,6 +44,7 @@ body {
   text-align: center;
 }
 
+.heading_container h1,
 .heading_container h2 {
   font-weight: bold;
 }
@@ -311,7 +312,8 @@ a:focus {
   padding-left: 25px;
 }
 
-.slider_section .slider_content #carouselExampleIndicators .detail_box h1 {
+.slider_section .slider_content #carouselExampleIndicators .detail_box h1,
+.slider_section .slider_content #carouselExampleIndicators .detail_box h2.slider-title {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 3rem;
@@ -550,6 +552,7 @@ a:focus {
   padding-right: 10%;
 }
 
+.about_section .box .detail-box h1,
 .about_section .box .detail-box h2 {
   font-weight: bold;
 }
@@ -662,11 +665,13 @@ html {
 }
 
 /* Estilos para las imágenes del carrusel */
+.slick-carousel .box picture,
 .slick-carousel .box img {
   width: 100%;  /* Se ajusta al 100% del contenedor */
   height: auto; /* Mantiene la proporción de las imágenes */
   object-fit: cover; /* Cubre el área sin deformar la imagen */
   border-radius: 8px; /* Esquinas redondeadas para un efecto más suave */
+  display: block;
 }
 .slick-carousel .box img:hover {
   filter: brightness(0.8);  /* Oscurece la imagen */
@@ -761,10 +766,12 @@ html {
   margin-bottom: 10px;
 }
 
-.slick-carousel .box .link-box h6 {
+.slick-carousel .box .link-box h6,
+.slick-carousel .box .link-box h3 {
   color: #fff;
   font-size: 14px;
   margin: 0;
+  font-weight: 600;
 }
 
 
