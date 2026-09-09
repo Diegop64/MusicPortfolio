@@ -327,7 +327,7 @@ Como compositor y músico, creo bandas sonoras originales para videojuegos y pro
       <div class="box">
         <picture>
           <source srcset="../images/duelite.webp" type="image/webp">
-          <img src="../images/duelite.jpg" alt="Banda sonora del videojuego Duelite" width="300" height="300" loading="lazy" decoding="async">
+          <img src="../images/duelite.jpg" alt="Banda sonora del videojuego Duelite" width="300" height="300" decoding="async">
         </picture>
         <div class="link-box">
           <a href="https://www.youtube.com/watch?v=YCVeZfKYYGM&list=PLscx0rdpUtmn6gh_V0w-uD3LHYnbv6_Q7&index=5" target="_blank" rel="noopener" aria-label="Listen to Banda sonora del videojuego Duelite">
@@ -339,7 +339,7 @@ Como compositor y músico, creo bandas sonoras originales para videojuegos y pro
       <div class="box">
         <picture>
           <source srcset="../images/youtubelogo.webp" type="image/webp">
-          <img src="../images/youtubelogo.jpg" alt="Canal de YouTube con bandas sonoras de DolmosMusic" width="300" height="300" loading="lazy" decoding="async">
+          <img src="../images/youtubelogo.jpg" alt="Canal de YouTube con bandas sonoras de DolmosMusic" width="300" height="300" decoding="async">
         </picture>
         <div class="link-box">
           <a href="https://www.youtube.com/@sgiro2670" target="_blank" rel="noopener" aria-label="Listen to Canal de YouTube con bandas sonoras">
@@ -351,7 +351,7 @@ Como compositor y músico, creo bandas sonoras originales para videojuegos y pro
       <div class="box">
         <picture>
           <source srcset="../images/cuatroCruces.webp" type="image/webp">
-          <img src="../images/cuatroCruces.jpg" alt="Banda sonora del cortometraje Cuatro Cruces" width="300" height="300" loading="lazy" decoding="async">
+          <img src="../images/cuatroCruces.jpg" alt="Banda sonora del cortometraje Cuatro Cruces" width="300" height="300" decoding="async">
         </picture>
         <div class="link-box">
           <a href="https://www.youtube.com/watch?app=desktop&v=KC52zbHARf8" target="_blank" rel="noopener" aria-label="Listen to Banda sonora del cortometraje Cuatro Cruces">
@@ -363,7 +363,7 @@ Como compositor y músico, creo bandas sonoras originales para videojuegos y pro
       <div class="box">
         <picture>
           <source srcset="../images/rabbittrail.webp" type="image/webp">
-          <img src="../images/rabbittrail.jpg" alt="Banda sonora del videojuego Rabbit Trail" width="300" height="300" loading="lazy" decoding="async">
+          <img src="../images/rabbittrail.jpg" alt="Banda sonora del videojuego Rabbit Trail" width="300" height="300" decoding="async">
         </picture>
         <div class="link-box">
           <a href="https://www.youtube.com/watch?v=6f_WvwrR5o8&list=PLscx0rdpUtmn9G7_9QLuqcmh2ETMzsjWN" target="_blank" rel="noopener" aria-label="Listen to Banda sonora del videojuego Rabbit Trail">
@@ -375,7 +375,7 @@ Como compositor y músico, creo bandas sonoras originales para videojuegos y pro
       <div class="box">
         <picture>
           <source srcset="../images/beatstarslogo.webp" type="image/webp">
-          <img src="../images/beatstarslogo.jpg" alt="Canal de beats de DolmosMusic en YouTube" width="300" height="300" loading="lazy" decoding="async">
+          <img src="../images/beatstarslogo.jpg" alt="Canal de beats de DolmosMusic en YouTube" width="300" height="300" decoding="async">
         </picture>
         <div class="link-box">
           <a href="https://www.youtube.com/@sgbeats6/videos" target="_blank" rel="noopener" aria-label="Listen to Canal de beats">
@@ -387,7 +387,7 @@ Como compositor y músico, creo bandas sonoras originales para videojuegos y pro
       <div class="box">
         <picture>
           <source srcset="../images/catchadndefense.webp" type="image/webp">
-          <img src="../images/catchadndefense.png" alt="Banda sonora del videojuego Catch & Defense" width="300" height="300" loading="lazy" decoding="async">
+          <img src="../images/catchadndefense.png" alt="Banda sonora del videojuego Catch & Defense" width="300" height="300" decoding="async">
         </picture>
         <div class="link-box">
           <a href="https://www.youtube.com/watch?v=VZ0qeZskuyY&list=PLYwdEFA2eq4U" target="_blank" rel="noopener" aria-label="Listen to Catch & Defense">
@@ -773,6 +773,14 @@ Hecho con pasión por la música y el arte digital.
     });
   });
 </script>
+
+<script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("/sw.js");
+      });
+    }
+  </script>
 
 </body>
 

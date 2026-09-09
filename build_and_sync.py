@@ -69,6 +69,12 @@ def replace_balanced_div(content, open_tag, replacement):
     raise ValueError(f"Could not find matching closing </div> for: {open_tag}")
 
 def render_box(track, lang='en', prefix=''):
+    # No loading="lazy" here on purpose: these images sit inside a Slick
+    # carousel that positions slides with `transform`, which can place them
+    # far outside the viewport before Slick repositions them. Native lazy
+    # loading then defers fetching them indefinitely on first visit (only a
+    # cached reload "fixes" it). There are just 6 small images, so eager
+    # loading costs nothing.
     title = track['title'][lang]
     alt = track['alt'][lang]
     url = track['url']
@@ -81,7 +87,7 @@ def render_box(track, lang='en', prefix=''):
     return f'''      <div class="box">
         <picture>
           <source srcset="{webp_rel}" type="image/webp">
-          <img src="{fallback_rel}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async">
+          <img src="{fallback_rel}" alt="{alt}" width="300" height="300" decoding="async">
         </picture>
         <div class="link-box">
           <a href="{url}" target="_blank" rel="noopener" aria-label="Listen to {title}">
