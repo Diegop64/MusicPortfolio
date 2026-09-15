@@ -93,6 +93,7 @@ body {
   height: 100vh;
   width: 100%;
   background-color: #141a1a;
+  background-image: url(../images/left-panel.jpg);
 }
 
 .sub_page .hero_area {
