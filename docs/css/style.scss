@@ -79,27 +79,27 @@ body {
 }
 
 /*header section*/
+// No background photos here on purpose: the hero uses a flat background
+// color plus an inline SVG vinyl-ring illustration (see index.html), not
+// a raster image.
 .hero_area {
   height: 100vh;
   position: relative;
-  background-image: url(../images/hero-bg.jpg);
-  background-size: cover;
-  background-position: right;
-  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #fbfaf8;
   display: flex;
   flex-direction: column;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 
-  // &::before {
-  //   content: "";
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   width: 33%;
-  //   height: 100%;
-  //   background-image: url(../images/hero-side-bg.jpg);
-  //   background-size: cover;
-  // }
+  .hero-vinyl-art {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    z-index: 0;
+    pointer-events: none;
+  }
 
   .slick_main {
     position: absolute;
@@ -109,24 +109,14 @@ body {
     height: 100vh;
     display: block;
     margin: 0 auto;
+    z-index: 1;
 
     .main-img-box {
       background-size: cover;
       background-position: center;
       height: 100vh;
       width: 100%;
-
-      &.b1 {
-        background-image: url(../images/a-1.jpg);
-      }
-
-      &.b2 {
-        background-image: url(../images/hero-side-bg2.jpg);
-      }
-
-      &.b3 {
-        background-image: url(../images/hero-side-bg.jpg);
-      }
+      background-color: #141a1a;
     }
   }
 

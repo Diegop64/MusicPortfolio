@@ -53,10 +53,8 @@ body {
 .hero_area {
   height: 100vh;
   position: relative;
-  background-image: url(../images/hero-bg.jpg);
-  background-size: cover;
-  background-position: right;
-  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #fbfaf8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,6 +66,16 @@ body {
           box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
+.hero_area .hero-vinyl-art {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  z-index: 0;
+  pointer-events: none;
+}
+
 .hero_area .slick_main {
   position: absolute;
   top: 0;
@@ -76,6 +84,7 @@ body {
   height: 100vh;
   display: block;
   margin: 0 auto;
+  z-index: 1;
 }
 
 .hero_area .slick_main .main-img-box {
@@ -83,14 +92,7 @@ body {
   background-position: center;
   height: 100vh;
   width: 100%;
-}
-
-.hero_area .slick_main .main-img-box.b2 {
-  background-image: url(../images/hero-side-bg.jpg);
-}
-
-.hero_area .slick_main .main-img-box.b1 {
-  background-image: url(../images/hero-side-bg2.jpg);
+  background-color: #141a1a;
 }
 
 .sub_page .hero_area {
@@ -110,6 +112,9 @@ body {
 
 .header_section {
   padding: 10px 0;
+  position: relative;
+  z-index: 2;
+  background-color: #fbfaf8;
 }
 
 .header_section .container-fluid {
