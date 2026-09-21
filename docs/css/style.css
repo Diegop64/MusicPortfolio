@@ -677,6 +677,12 @@ html {
   object-fit: cover; /* Cubre el área sin deformar la imagen */
   border-radius: 8px; /* Esquinas redondeadas para un efecto más suave */
   display: block;
+  /* Evita que el navegador inicie su propio drag-and-drop de la imagen al
+     arrastrar, lo que a veces "secuestraba" el gesto y cortaba el swipe. */
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+  user-select: none;
 }
 .slick-carousel .box img:hover {
   filter: brightness(0.8);  /* Oscurece la imagen */

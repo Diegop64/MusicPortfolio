@@ -757,8 +757,10 @@ Hecho con pasión por la música y el arte digital.
       infinite: true,                    // Carrusel infinito
       slidesToShow: 3,                   // Muestra tres diapositivas
       slidesToScroll: 1,                 // Se desplaza 1 diapositiva a la vez
+      swipeToSlide: true,                // Al arrastrar, avanza tantas diapositivas como recorra el gesto
+      speed: 500,                        // Velocidad de la transición
       autoplay: true,                    // Carrusel se mueve automáticamente
-      autoplaySpeed: 10000,               // Velocidad del carrusels
+      autoplaySpeed: 3000,               // Avanza una diapositiva cada 3s si no se toca
       centerMode: true,  // Habilita el modo centrado
 
       responsive: [
@@ -787,6 +789,14 @@ Hecho con pasión por la música y el arte digital.
     $('.arrow-right').on('click', function(){
       $carousel.slick('slickNext');   // Mueve el carrusel hacia la derecha
     });
+
+    // Evita que el navegador inicie su propio drag de imagen/enlace al arrastrar
+    // (podía "secuestrar" el gesto y dejar el carrusel a medio mover).
+    document.addEventListener('dragstart', function (e) {
+      if (e.target && e.target.closest && e.target.closest('.slick-carousel')) {
+        e.preventDefault();
+      }
+    }, true);
   });
 </script>
 
