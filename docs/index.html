@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- Basic -->
@@ -16,12 +16,26 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <meta name="description" content="Diego Olmos (DolmosMusic), productor musical y compositor en Murcia. Creación de bandas sonoras originales, música para videojuegos y proyectos audiovisuales." />
+  <meta name="author" content="Diego Olmos" />
 
-  <title>DOlmosMusic</title>
+  <title>DolmosMusic | Productor Musical y Compositor de Bandas Sonoras en Murcia</title>
 
+  <link rel="canonical" href="https://www.dolmosmusic.com/" />
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="DolmosMusic" />
+  <meta property="og:url" content="https://www.dolmosmusic.com/" />
+  <meta property="og:title" content="DolmosMusic | Productor Musical y Compositor de Bandas Sonoras en Murcia" />
+  <meta property="og:description" content="Diego Olmos (DolmosMusic), productor musical y compositor en Murcia. Creación de bandas sonoras originales, música para videojuegos y proyectos audiovisuales." />
+  <meta property="og:image" content="https://www.dolmosmusic.com/images/discs-bg.jpg" />
+  <meta property="og:image:alt" content="DolmosMusic — original soundtrack production" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DolmosMusic | Productor Musical y Compositor de Bandas Sonoras en Murcia" />
+  <meta name="twitter:description" content="Diego Olmos (DolmosMusic), productor musical y compositor en Murcia. Creación de bandas sonoras originales, música para videojuegos y proyectos audiovisuales." />
+  <meta name="twitter:image" content="https://www.dolmosmusic.com/images/discs-bg.jpg" />
 
 
   <!--slick slider stylesheet -->
@@ -37,6 +51,79 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- Temporary Style Block for Logo Fix -->
+  <style>
+    .navbar .navbar-brand {
+      display: flex !important;
+      align-items: center;
+      z-index: 100000;
+      position: relative; /* Ensure z-index works */
+    }
+    .navbar .navbar-brand img {
+      height: 40px;
+      width: auto;
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.dolmosmusic.com/#person",
+        "name": "Diego Olmos",
+        "alternateName": "DolmosMusic",
+        "url": "https://www.dolmosmusic.com/",
+        "image": "https://www.dolmosmusic.com/images/me.png",
+        "jobTitle": "Music Producer and Composer",
+        "email": "sgirobeats@gmail.com",
+        "description": "Music producer and composer creating original soundtracks for video games, cinematic productions and audiovisual projects.",
+        "knowsAbout": [
+          "Original soundtrack composition",
+          "Video game music",
+          "Sound design",
+          "Music production"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Murcia",
+          "addressCountry": "ES"
+        },
+        "sameAs": [
+          "https://instagram.com/diegop64",
+          "https://www.youtube.com/@sgiro2670",
+          "https://www.youtube.com/@sgbeats6"
+        ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://www.dolmosmusic.com/#business",
+        "name": "DolmosMusic",
+        "url": "https://www.dolmosmusic.com/",
+        "image": "https://www.dolmosmusic.com/images/logo.png",
+        "email": "sgirobeats@gmail.com",
+        "description": "Original soundtrack, video game music and sound design services for developers, indie creators and small businesses.",
+        "founder": { "@id": "https://www.dolmosmusic.com/#person" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Murcia",
+          "addressCountry": "ES"
+        },
+        "areaServed": "Worldwide"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.dolmosmusic.com/#website",
+        "url": "https://www.dolmosmusic.com/",
+        "name": "DolmosMusic",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://www.dolmosmusic.com/#person" }
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
@@ -55,14 +142,14 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="DolmosMusic" />
+          </a>
           <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-				<img src="images/logo.png" style="height: 40px; width: auto; margin-right: 30px; float: left;" />
-            
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -127,38 +214,38 @@
                         Music creation oriented towards cinematic productions and video games.
                       </p>
                       <div class="btn-box">
-                        <a class="nav-link btn-1" href="contact.html" >Contact</a>
-                        <a class="nav-link btn-2" href="about.html">About Us</a>
+                        <a class="nav-link btn-1" href="#contact" >Contact</a>
+                        <a class="nav-link btn-2" href="#about">About Us</a>
                       </div>
                     </div>
                   </div>
                   <div class="carousel-item ">
                     <div class="detail_box">
-                      <h1>
+                      <h2>
                         VIDEO GAME<br />
                         MUSIC AND FX
-                      </h1>
+                      </h2>
                       <p>
                         Music and sound effects for video games.
                       </p>
                       <div class="btn-box">
-                        <a class="nav-link btn-1" href="contact.html" >Contact</a>
-                        <a class="nav-link btn-2" href="about.html">About Us</a>
+                        <a class="nav-link btn-1" href="#contact" >Contact</a>
+                        <a class="nav-link btn-2" href="#about">About Us</a>
                       </div>
                     </div>
                   </div>
                   <div class="carousel-item ">
                     <div class="detail_box">
-                      <h1>
+                      <h2>
                         MUSIC FOR CORPORATE<br />
                         AND PROMO VIDEOS
-                      </h1>
+                      </h2>
                       <p>
                         Music and ambient soundscapes for corporate presentations, promos and video contents.
                       </p>
                       <div class="btn-box">
-                        <a class="nav-link btn-1" href="contact.html" >Contact</a>
-                        <a class="nav-link btn-2" href="about.html">About Us</a>
+                        <a class="nav-link btn-1" href="#contact" >Contact</a>
+                        <a class="nav-link btn-2" href="#about">About Us</a>
                       </div>
                     </div>
                   </div>
@@ -176,16 +263,16 @@
               <div class="img_container">
                 <div class="slider slider-nav slick_slider-nav">
                   <div class="img-box" style="max-width: 150px;max-height: 150px;">
-                    <img  src="images/duelite.jpg" alt="">
+                    <img  src="images/duelite.jpg" alt="Duelite game soundtrack by DolmosMusic">
                   </div>
                   <div class="img-box" style="max-width: 150px;max-height: 150px;">
-                    <img src="images/youtubelogo.jpg" alt="">
+                    <img src="images/youtubelogo.jpg" alt="DolmosMusic YouTube soundtrack channel">
                   </div>
                   <div class="img-box" style="max-width: 150px;max-height: 150px;">
-                    <img src="images/cuatroCruces.jpg" alt="">
+                    <img src="images/cuatroCruces.jpg" alt="Cuatro Cruces short film soundtrack">
                   </div>
                   <div class="img-box" style="max-width: 150px;max-height: 150px;">
-                    <img src="rabbittrail.jpg" alt="">
+                    <img src="images/rabbittrail.jpg" alt="Rabbit Trail game soundtrack">
                   </div>
                 </div>
               </div>
@@ -204,7 +291,7 @@
     <div class="container-fluid">
       <div class="box">
           <div class="img-box b2">
-            <img src="images/me.png" style="height: 260px; width: auto; margin: 30px;margin-right: 50px;" alt="">
+            <img src="images/me.png" style="height: 260px; width: auto; margin: 30px;margin-right: 50px;" alt="Diego Olmos, music producer and composer at DolmosMusic">
           </div>
         <div class="detail-box">
           <h2>
@@ -214,7 +301,7 @@
             I have been involved in music production for over 6 years and have always wanted to make people truly feel the music the way i do.
 I create music for video games and cinematic projects, and I’ve also worked in the music industry producing trap/rap songs as a music producer and sample maker.
           </p>
-          <a href="">
+          <a href="https://instagram.com/diegop64" target="_blank" rel="noopener">
             Social Media
           </a>
         </div>
@@ -237,11 +324,11 @@ I create music for video games and cinematic projects, and I’ve also worked in
       </div>
       
         <div class="carousel-arrows">
-    <button class="arrow-left">
-      <img src="images/up.png" alt="Left Arrow">
+    <button class="arrow-left" aria-label="Previous portfolio item">
+      <img src="images/up.png" alt="" aria-hidden="true">
     </button>
-    <button class="arrow-right">
-      <img src="images/up.png" alt="Right Arrow">
+    <button class="arrow-right" aria-label="Next portfolio item">
+      <img src="images/up.png" alt="" aria-hidden="true">
     </button>
   </div>
     
@@ -249,10 +336,10 @@ I create music for video games and cinematic projects, and I’ve also worked in
     </div>
     <div class="portfolio_container slick-carousel">
       <div class="box">
-        <img src="images/duelite.jpg" alt="">
+        <img src="images/duelite.jpg" alt="Duelite game soundtrack composed by DolmosMusic">
         <div class="link-box">
-          <a href="https://www.youtube.com/watch?v=YCVeZfKYYGM&list=PLscx0rdpUtmn6gh_V0w-uD3LHYnbv6_Q7&index=5" target="_blank">
-            <img src="images/link.png" alt="">
+          <a href="https://www.youtube.com/watch?v=YCVeZfKYYGM&list=PLscx0rdpUtmn6gh_V0w-uD3LHYnbv6_Q7&index=5" target="_blank" rel="noopener">
+            <img src="images/link.png" alt="" aria-hidden="true">
           </a>
           <h6>
             Duelite game sountrack
@@ -260,10 +347,10 @@ I create music for video games and cinematic projects, and I’ve also worked in
         </div>
       </div>
       <div class="box">
-        <img src="images/youtubelogo.jpg" alt="">
+        <img src="images/youtubelogo.jpg" alt="DolmosMusic YouTube channel featuring original soundtracks">
         <div class="link-box">
-		<a href="https://www.youtube.com/@sgiro2670" target="_blank">
-            <img src="images/link.png" alt="">
+		<a href="https://www.youtube.com/@sgiro2670" target="_blank" rel="noopener">
+            <img src="images/link.png" alt="" aria-hidden="true">
           </a>
           <h6>
             Youtube channel with soundtracks
@@ -271,10 +358,10 @@ I create music for video games and cinematic projects, and I’ve also worked in
         </div>
       </div>
       <div class="box">
-        <img src="images/cuatroCruces.jpg" alt="">
+        <img src="images/cuatroCruces.jpg" alt="Cuatro Cruces short film soundtrack composed by DolmosMusic">
         <div class="link-box">
-		  <a href="https://www.youtube.com/watch?app=desktop&v=KC52zbHARf8" target="_blank">
-            <img src="images/link.png" alt="">
+		  <a href="https://www.youtube.com/watch?app=desktop&v=KC52zbHARf8" target="_blank" rel="noopener">
+            <img src="images/link.png" alt="" aria-hidden="true">
           </a>
           <h6>
             Cuatro Cruces short sountrack
@@ -282,10 +369,10 @@ I create music for video games and cinematic projects, and I’ve also worked in
         </div>
       </div>
       <div class="box">
-        <img src="images/rabbittrail.jpg" alt="">
+        <img src="images/rabbittrail.jpg" alt="Rabbit Trail game soundtrack composed by DolmosMusic">
         <div class="link-box">
-		  <a href="https://www.youtube.com/watch?v=6f_WvwrR5o8&list=PLscx0rdpUtmn9G7_9QLuqcmh2ETMzsjWN" target="_blank">
-            <img src="images/link.png" alt="">
+		  <a href="https://www.youtube.com/watch?v=6f_WvwrR5o8&list=PLscx0rdpUtmn9G7_9QLuqcmh2ETMzsjWN" target="_blank" rel="noopener">
+            <img src="images/link.png" alt="" aria-hidden="true">
           </a>
           <h6>
             Rabbit Trail game sountrack
@@ -293,10 +380,10 @@ I create music for video games and cinematic projects, and I’ve also worked in
         </div>
       </div>
       <div class="box">
-        <img src="images/beatstarslogo.jpg" alt="">
+        <img src="images/beatstarslogo.jpg" alt="DolmosMusic beats channel with trap and rap instrumentals">
         <div class="link-box">
-          <a href="https://www.youtube.com/@sgbeats6/videos" target="_blank">
-            <img src="images/link.png" alt="">
+          <a href="https://www.youtube.com/@sgbeats6/videos" target="_blank" rel="noopener">
+            <img src="images/link.png" alt="" aria-hidden="true">
           </a>
           <h6>
             Beats Channel
@@ -336,7 +423,7 @@ I create music for video games and cinematic projects, and I’ve also worked in
             <div class="carousel-item active">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/betaking.png" style="height: 100px" alt="">
+                  <img src="images/betaking.png" style="height: 100px" alt="Betaking Studios logo">
                 </div>
                 <div class="detail-box">
                   <h4>
@@ -344,7 +431,7 @@ I create music for video games and cinematic projects, and I’ve also worked in
                   </h4>
                   <p>
 			Working with Diego on the music for my Old West-themed game was a smooth and enjoyable process. Communication was easy—he took the time to really understand what I was looking for, even though some ideas were hard to put into words. There were a couple of adjustments along the way, but Diego was quick to adapt and kept the focus on making the music fit the atmosphere of the game. The final result captured that rugged, dusty Old West vibe perfectly, with just the right balance of grit and emotion. It really elevates the experience, and I’m happy with how it all turned out.                  </p>
-                  <img src="images/quote.png" alt="">
+                  <img src="images/quote.png" alt="" aria-hidden="true">
                 </div>
               </div>
             </div>
@@ -384,7 +471,7 @@ I create music for video games and cinematic projects, and I’ve also worked in
     <p style="margin-top:15px" ><strong>Ready to Get Started?</strong></p>
     <p>If you’re a developer, indie creator, or small business with limited resources, we can help create the perfect soundtrack at a budget-friendly price. Let’s discuss your project and create something amazing together!</p>
 
-    <button href="#contact">Contact Us for a Quote</button>
+    <button type="button" onclick="location.href='#contact'">Contact Us for a Quote</button>
   </div>
 </section>
 
@@ -419,10 +506,10 @@ I create music for video games and cinematic projects, and I’ve also worked in
 
       <div class="col-md-6">
         <div class="img-box" style="height:450px; width: 450px">
-          <img src="images/discs-bg.jpg" alt="">
+          <img src="images/discs-bg.jpg" alt="Vinyl records representing DolmosMusic soundtrack production">
           <div class="img_overlay">
             <h2>Find your sound</h2>
-            <a href="#">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </div>
         </div>
       </div>
@@ -464,9 +551,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e){
       <div class="row">
         <div class="col-md-3">
           <div class="info-logo">
-            <a href="">
-            </a>
-            <p>  
+            <p>
 	A space dedicated to music production, exclusive beats, and musical creativity.
 	Connect with music and discover new projects.
             </p>
@@ -484,17 +569,17 @@ document.getElementById("contact-form").addEventListener("submit", function(e){
                 </a>
               </li>
               <li>
-                <a href="about.html">
+                <a href="#about">
                   About
                 </a>
               </li>
               <li>
-                <a href="portfolio.html">
+                <a href="#portfolio">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="contact.html">
+                <a href="#contact">
                   Contact Us
                 </a>
               </li>
@@ -510,14 +595,14 @@ document.getElementById("contact-form").addEventListener("submit", function(e){
         <div class="info-contact">
           <h4>Contact</h4>
           <div class="location">
-            <a href="https://goo.gl/maps/sf1N2">
-              <img src="images/location.png" alt="Ubicación">
+            <a href="https://www.google.com/maps/place/Murcia,+Spain" target="_blank" rel="noopener">
+              <img src="images/location.png" alt="" aria-hidden="true">
               <span>Murcia, España</span>
             </a>
           </div>
           <div class="call">
             <a href="mailto:sgirobeats@gmail.com">
-              <img src="images/mail.png" alt="Correo">
+              <img src="images/mail.png" alt="" aria-hidden="true">
               <span>sgirobeats@gmail.com</span>
             </a>
           </div>
@@ -528,10 +613,10 @@ document.getElementById("contact-form").addEventListener("submit", function(e){
         <div class="discover">
           <h4>Social Media</h4>
           <div class="social-box">
-            <a href="https://instagram.com/diegop64" target="_blank">
+            <a href="https://instagram.com/diegop64" target="_blank" rel="noopener" aria-label="DolmosMusic on Instagram">
               <img src="images/insta.png" alt="Instagram">
             </a>
-             <a href="https://youtube.com/" target="_blank">
+             <a href="https://www.youtube.com/@sgiro2670" target="_blank" rel="noopener" aria-label="DolmosMusic on YouTube">
               <img src="images/youtube.png" style="size:10px" alt="YouTube">
             </a>
               <div class="social-box">
@@ -627,51 +712,6 @@ Crafted with passion for music and digital artistry.
     });
   });
 </script>
-
-<script>
-        // Función para mostrar el popup con el mensaje
-        function showPopup(message) {
-            const popup = document.getElementById('popup');
-            const popupMessage = document.getElementById('popupMessage');
-            popupMessage.textContent = message;
-            popup.style.display = 'block';
-        }
-
-        // Función para cerrar el popup y resetear el formulario
-        function closePopup() {
-            const popup = document.getElementById('popup');
-            popup.style.display = 'none';
-
-            // Resetear los campos del formulario
-            document.getElementById('contactForm').reset();
-        }
-
-        // Manejar el envío del formulario con JavaScript y AJAX
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();  // Evita que el formulario se envíe de forma tradicional
-
-            const formData = new FormData(this);  // Recolectar los datos del formulario
-
-            // Enviar los datos al servidor mediante AJAX
-            fetch('sendemail.php', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.status === 'success') {
-                    showPopup(data.message);  // Mostrar mensaje de éxito
-                } else {
-                    showPopup(data.message);  // Mostrar mensaje de error
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                showPopup('Hubo un problema al enviar el mensaje.');
-            });
-        });
-    </script>
-  
 
 </body>
 
