@@ -274,7 +274,9 @@ def update_simple_pages():
         if 'property="og:title"' not in c:
             page_name = 'About' if 'about' in f else 'Contact'
             page_name_es = 'Sobre mí' if 'about' in f else 'Contacto'
-            title = f"{page_name_es if lang=='es' else page_name} | DolmosMusic - Original Soundtrack Composer in Murcia"
+            # Derive from the page's real <title> so the two can never drift apart
+            title_match = re.search(r'<title>(.*?)</title>', c, flags=re.DOTALL)
+            title = title_match.group(1).strip() if title_match else f"{page_name_es if lang=='es' else page_name} | DolmosMusic"
             desc_text = "Diego Olmos (DolmosMusic), composer and music producer in Murcia, Spain." if lang=='en' else "Diego Olmos (DolmosMusic), compositor y productor musical en Murcia, España."
             loc = 'es_ES' if lang == 'es' else 'en_US'
             url_target = f"https://www.dolmosmusic.com/{f}"
