@@ -121,29 +121,29 @@
     {
       "q": { "en": "Do you use AI to create your music?", "es": "¿Usas inteligencia artificial para crear tu música?" },
       "a": {
-        "en": "No. I don't use AI to create my songs. If you need it, I can send you examples of the creative process.",
-        "es": "No. No uso inteligencia artificial para crear mis canciones. Si lo necesitas, puedo enviarte ejemplos del proceso de creación."
+        "en": "No. I don't use AI to create my songs. As an artist, I reject the use of AI to generate songs or soundtracks: the creative process is something human and far more valuable when composing. If you need it, I can send you examples of the creative process.",
+        "es": "No. No uso inteligencia artificial para crear mis canciones. Como artista rechazo el uso de IA para generar canciones o bandas sonoras: el proceso creativo es algo humano y mucho más valioso a la hora de componer. Si lo necesitas, puedo enviarte ejemplos del proceso de creación."
       }
     },
     {
       "q": { "en": "Do you compose music for indie and small game studios?", "es": "¿Compones música para estudios indie y pequeños?" },
       "a": {
-        "en": "Yes, I work with small studios, indie developers and solo creators. Most of my projects so far have been for indie games.",
-        "es": "Sí, trabajo tanto con estudios pequeños e indies como con desarrolladores individuales. La mayoría de mis proyectos hasta ahora han sido para videojuegos indie."
+        "en": "Yes, I work with small studios, indie developers and solo creators. Most of my projects so far have been for indie games, although their styles and needs are still very varied.",
+        "es": "Sí, trabajo tanto con estudios pequeños e indies como con desarrolladores individuales. La mayoría de mis proyectos hasta ahora han sido para videojuegos indie, aunque entre los mismos los estilos y necesidades siguen siendo muy variados."
       }
     },
     {
       "q": { "en": "How much does a project usually cost?", "es": "¿Cuánto se suele cobrar por proyecto?" },
       "a": {
-        "en": "Pricing is adaptive: not every project or budget is the same. Tell me the details of your project and I'll give you a price that fits what you need, whether it's a small short film or something bigger.",
-        "es": "Depende mucho del proyecto, no hay un precio fijo. Prefiero hablar contigo primero para entender qué necesitas y así darte un precio real."
+        "en": "The price of each project depends on its needs, so feel free to contact me and talk about it.",
+        "es": "El precio de cada proyecto difiere de las necesidades de cada uno, siéntete libre para contactarme y hablar sobre ello."
       }
     },
     {
-      "q": { "en": "What kind of music do you compose for video games?", "es": "¿Qué tipo de música compones para videojuegos?" },
+      "q": { "en": "What kind of music do you compose?", "es": "¿Qué tipo de música compones?" },
       "a": {
-        "en": "It depends on the project: from orchestral and western-style soundtracks to retro chiptune styles, always adapted to the tone and mechanics of your game.",
-        "es": "Depende del proyecto: desde bandas sonoras orquestales y de estilo western, hasta sonidos retro, siempre adaptado al tono y la mecánica de tu juego."
+        "en": "It depends on the project: from orchestral and western-style soundtracks to retro sounds, always adapted to the tone and mechanics of the project.",
+        "es": "Depende del proyecto: desde bandas sonoras orquestales y de estilo western, hasta sonidos retro, siempre adaptado al tono y la mecánica del proyecto."
       }
     },
     {
@@ -156,8 +156,8 @@
     {
       "q": { "en": "Do you also work on short films and movies, not just video games?", "es": "¿También compones para cortometrajes y películas, no solo videojuegos?" },
       "a": {
-        "en": "Yes. Video game soundtracks are my passion, but I also compose for short films, movies and corporate videos.",
-        "es": "Sí. Las bandas sonoras para videojuegos son mi pasión, pero también compongo para cortometrajes, películas y vídeos corporativos."
+        "en": "I compose all kinds of soundtracks; in fact, my favourite ones to produce are orchestral, in the style of Game of Thrones. I can adapt to the vast majority of styles without any problem.",
+        "es": "Compongo bandas sonoras de todo tipo, de hecho mis favoritas para producir son de tipo orquestales al estilo de Juego de Tronos. Me adapto a la gran mayoría de estilos sin problema."
       }
     }
   ],
