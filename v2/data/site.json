@@ -1,0 +1,169 @@
+{
+  "site_url": "https://www.dolmosmusic.com/",
+  "name": "Diego Olmos",
+  "brand": "DOlmos Music",
+  "email": "sgirobeats@gmail.com",
+  "location": { "en": "Murcia, Spain", "es": "Murcia, España" },
+  "formspree": "https://formspree.io/f/xqayakel",
+  "google_ads_id": "AW-17607525505",
+
+  "seo": {
+    "title": {
+      "en": "DolmosMusic | Original Soundtrack Composer for Video Games, Shorts & Films in Murcia",
+      "es": "DolmosMusic | Compositor de Bandas Sonoras para Videojuegos, Cortos y Películas en Murcia"
+    },
+    "description": {
+      "en": "Diego Olmos (DolmosMusic), composer and musician based in Murcia, Spain, specialized in original soundtracks for video games, short films and movies. Remote work worldwide.",
+      "es": "Diego Olmos (DolmosMusic), compositor y músico en Murcia especializado en bandas sonoras originales para videojuegos, cortometrajes y películas. Trabajo en remoto para todo el mundo."
+    },
+    "keywords": {
+      "en": "video game music composer, video game musician, film score composer, original soundtrack, music producer Murcia Spain",
+      "es": "compositor bandas sonoras videojuegos, músico bandas sonoras videojuegos, compositor bandas sonoras videojuegos Murcia, música para cortometrajes, música para películas, productor musical"
+    },
+    "og_image": "images/duelite.jpg"
+  },
+
+  "hero": {
+    "subtitle": {
+      "en": "Soundtrack composer for video games and short films",
+      "es": "Compositor de bandas sonoras para videojuegos y cortometrajes"
+    }
+  },
+
+  "works_more": [
+    { "label": { "en": "soundtracks channel", "es": "canal de bandas sonoras" }, "url": "https://www.youtube.com/@sgiro2670" },
+    { "label": { "en": "beats channel", "es": "canal de beats" }, "url": "https://www.youtube.com/@sgbeats6/videos" }
+  ],
+
+  "no_ai": {
+    "hero_link": { "en": "Composed without AI", "es": "Compuesto sin IA" },
+    "title": { "en": "Composed without AI", "es": "Compuesto sin inteligencia artificial" },
+    "text": {
+      "en": "I don't use AI to create my songs: every track on this page is composed by me. If you need it, I can send you examples of the creative process.",
+      "es": "No uso inteligencia artificial para crear mis canciones: todos los temas de esta página los compongo yo. Si lo necesitas, puedo enviarte ejemplos del proceso de creación."
+    },
+    "cta": { "en": "Ask for process examples", "es": "Pedir ejemplos del proceso" },
+    "prefill": {
+      "en": "Hi Diego, I'd like to see some examples of your creative process.",
+      "es": "Hola Diego, me gustaría ver ejemplos de tu proceso de creación."
+    }
+  },
+
+  "about": {
+    "photo": "images/me.png",
+    "photo_alt": { "en": "Diego Olmos, soundtrack composer", "es": "Diego Olmos, compositor de bandas sonoras" },
+    "paragraphs": [
+      {
+        "en": "I've been composing and producing music for over six years. I make soundtracks for video games and short films, and I've also worked as a trap and rap producer and sample maker.",
+        "es": "Llevo más de seis años componiendo y produciendo música. Hago bandas sonoras para videojuegos y cortometrajes, y también he trabajado como productor de trap y rap y creador de samples."
+      },
+      {
+        "en": "I'm based in Murcia, Spain, but I work remotely with developers, filmmakers and studios anywhere in the world.",
+        "es": "Vivo en Murcia, pero trabajo en remoto con desarrolladores, cineastas y estudios de cualquier parte del mundo."
+      }
+    ]
+  },
+
+  "testimonial": {
+    "author": "Betaking Studios",
+    "logo": "images/betaking.png",
+    "quote": {
+      "en": "Working with Diego on the music for my Old West-themed game was a smooth and enjoyable process. Communication was easy—he took the time to really understand what I was looking for, even though some ideas were hard to put into words. There were a couple of adjustments along the way, but Diego was quick to adapt and kept the focus on making the music fit the atmosphere of the game. The final result captured that rugged, dusty Old West vibe perfectly, with just the right balance of grit and emotion. It really elevates the experience, and I'm happy with how it all turned out.",
+      "es": "Trabajar con Diego en la música de mi videojuego ambientado en el Viejo Oeste fue un proceso fácil y agradable. La comunicación fue sencilla: se tomó el tiempo de entender de verdad lo que buscaba, aunque algunas ideas eran difíciles de expresar con palabras. Hubo un par de ajustes por el camino, pero Diego se adaptó rápido y mantuvo el foco en que la música encajara con la atmósfera del juego. El resultado final capturó a la perfección ese ambiente rudo y polvoriento del Viejo Oeste, con el equilibrio justo entre crudeza y emoción. Eleva muchísimo la experiencia, y estoy encantado con cómo ha quedado todo."
+    }
+  },
+
+  "catalog": {
+    "lead": {
+      "en": "Why clear project descriptions are crucial for accurate pricing",
+      "es": "Por qué una descripción clara del proyecto es clave para un presupuesto justo"
+    },
+    "intro": [
+      {
+        "en": "For a fair and accurate price, providing a clear and detailed project description is key. Whether you're looking for custom soundtracks or background music for your project, knowing the scope, needs, and creative direction allows us to offer the best value without surprises.",
+        "es": "Para ofrecerte un precio justo y ajustado, es fundamental contar con una descripción clara y detallada del proyecto. Ya busques una banda sonora a medida o música de fondo para tu proyecto, conocer el alcance, las necesidades y la dirección creativa nos permite ofrecerte el mejor valor sin sorpresas."
+      },
+      {
+        "en": "We understand that developers and small businesses often work within tight budgets. That's why we offer affordable, high-quality music solutions tailored to your needs.",
+        "es": "Sabemos que desarrolladores y pequeños negocios suelen trabajar con presupuestos ajustados. Por eso ofrecemos soluciones musicales asequibles y de calidad, adaptadas a tus necesidades."
+      }
+    ],
+    "tiers": [
+      {
+        "name": { "en": "Basic project", "es": "Proyecto básico" },
+        "text": {
+          "en": "Perfect for simple, short soundtracks and background music for smaller projects or videos.",
+          "es": "Ideal para bandas sonoras cortas y sencillas, o música de fondo para proyectos o vídeos pequeños."
+        }
+      },
+      {
+        "name": { "en": "Intermediate project", "es": "Proyecto intermedio" },
+        "text": {
+          "en": "For projects requiring custom compositions, more complex soundtracks, and music tailored to your content.",
+          "es": "Para proyectos que requieren composiciones a medida, bandas sonoras más elaboradas y música adaptada a tu contenido."
+        }
+      },
+      {
+        "name": { "en": "Advanced project", "es": "Proyecto avanzado" },
+        "text": {
+          "en": "For larger projects with multiple tracks, professional-grade compositions, and full sound design.",
+          "es": "Para proyectos más grandes con múltiples pistas, composiciones de calidad profesional y diseño de sonido completo."
+        }
+      }
+    ],
+    "outro": {
+      "en": "If you're a developer, indie creator, or small business, I can help create the perfect soundtrack adapted to your budget.",
+      "es": "Si eres desarrollador, creador independiente o una pequeña empresa, puedo ayudarte a crear la banda sonora perfecta adaptada a tu presupuesto."
+    }
+  },
+
+  "faq": [
+    {
+      "q": { "en": "Do you use AI to create your music?", "es": "¿Usas inteligencia artificial para crear tu música?" },
+      "a": {
+        "en": "No. I don't use AI to create my songs. If you need it, I can send you examples of the creative process.",
+        "es": "No. No uso inteligencia artificial para crear mis canciones. Si lo necesitas, puedo enviarte ejemplos del proceso de creación."
+      }
+    },
+    {
+      "q": { "en": "Do you compose music for indie and small game studios?", "es": "¿Compones música para estudios indie y pequeños?" },
+      "a": {
+        "en": "Yes, I work with small studios, indie developers and solo creators. Most of my projects so far have been for indie games.",
+        "es": "Sí, trabajo tanto con estudios pequeños e indies como con desarrolladores individuales. La mayoría de mis proyectos hasta ahora han sido para videojuegos indie."
+      }
+    },
+    {
+      "q": { "en": "How much does a project usually cost?", "es": "¿Cuánto se suele cobrar por proyecto?" },
+      "a": {
+        "en": "Pricing is adaptive: not every project or budget is the same. Tell me the details of your project and I'll give you a price that fits what you need, whether it's a small short film or something bigger.",
+        "es": "Depende mucho del proyecto, no hay un precio fijo. Prefiero hablar contigo primero para entender qué necesitas y así darte un precio real."
+      }
+    },
+    {
+      "q": { "en": "What kind of music do you compose for video games?", "es": "¿Qué tipo de música compones para videojuegos?" },
+      "a": {
+        "en": "It depends on the project: from orchestral and western-style soundtracks to retro chiptune styles, always adapted to the tone and mechanics of your game.",
+        "es": "Depende del proyecto: desde bandas sonoras orquestales y de estilo western, hasta sonidos retro, siempre adaptado al tono y la mecánica de tu juego."
+      }
+    },
+    {
+      "q": { "en": "What's the working process like?", "es": "¿Cómo es el proceso de trabajo?" },
+      "a": {
+        "en": "We start with a conversation about your project so I understand what you need, I give you a quote based on that, and we work through revisions until the music fits your game, short film or movie perfectly.",
+        "es": "Empezamos con una conversación sobre tu proyecto para entender qué necesitas, te doy un presupuesto ajustado a eso, y trabajamos con revisiones hasta que la música encaje perfectamente con tu juego, corto o película."
+      }
+    },
+    {
+      "q": { "en": "Do you also work on short films and movies, not just video games?", "es": "¿También compones para cortometrajes y películas, no solo videojuegos?" },
+      "a": {
+        "en": "Yes. Video game soundtracks are my passion, but I also compose for short films, movies and corporate videos.",
+        "es": "Sí. Las bandas sonoras para videojuegos son mi pasión, pero también compongo para cortometrajes, películas y vídeos corporativos."
+      }
+    }
+  ],
+
+  "social": [
+    { "label": "Instagram", "url": "https://instagram.com/diegop64" },
+    { "label": "YouTube", "url": "https://www.youtube.com/@sgiro2670" }
+  ]
+}

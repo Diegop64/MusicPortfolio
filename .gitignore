@@ -1,1 +1,5 @@
 .claude/
+.DS_Store
+__pycache__/
+v2/site/
+v2/preview/
