@@ -1,4 +1,4 @@
-/* DOlmosMusic v2 · créditos desplegables, pantalla de YouTube y formulario.
+/* DolmosMusic v2 · créditos desplegables, pantalla de YouTube y formulario.
    El reproductor de YouTube solo se carga cuando alguien pulsa reproducir
    (youtube-nocookie.com), y se elimina al cerrar el crédito. */
 (function () {

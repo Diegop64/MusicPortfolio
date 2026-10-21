@@ -1,0 +1,10 @@
+      <form class="contact-form" action="{{formspree}}" method="POST" novalidate>
+        <label>{{t_f_name}}<input type="text" name="name" autocomplete="name" required></label>
+        <label>{{t_f_email}}<input type="email" name="email" autocomplete="email" required></label>
+        <label class="full">{{t_f_message}}<textarea name="message" rows="6" required></textarea></label>
+        <input type="hidden" name="page_origin" value="{{page_origin}}">
+        <div class="form-foot full">
+          <button class="btn btn-primary" type="submit">{{t_f_send}}</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </div>
+      </form>

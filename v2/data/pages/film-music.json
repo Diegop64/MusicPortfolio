@@ -1,0 +1,250 @@
+{
+  "id": "film-music",
+  "type": "service",
+  "order": 20,
+  "in_nav": true,
+  "path": {
+    "en": "film-music/",
+    "es": "es/musica-para-cortometrajes/"
+  },
+  "nav": {
+    "en": "Short films",
+    "es": "Cortometrajes"
+  },
+  "form_type": "film",
+  "seo": {
+    "title": {
+      "en": "Music for Short Films: Original Score Composer | DolmosMusic",
+      "es": "Música para cortometrajes: compositor de bandas sonoras | DolmosMusic"
+    },
+    "description": {
+      "en": "Original scores for short films from €50, with an exclusive licence in writing. Composer of the short film Cuatro Cruces (Metrópolis C.E., 2024). Based in Murcia, Spain, working remotely.",
+      "es": "Banda sonora original para tu cortometraje desde 50 €, con licencia exclusiva por escrito. Compositor del corto Cuatro Cruces (Metrópolis C.E., 2024). Desde Murcia, en remoto."
+    }
+  },
+  "h1": {
+    "en": "Original music for short films",
+    "es": "Música original para cortometrajes"
+  },
+  "intro": {
+    "en": "I compose original scores for short films, from €50, with an exclusive licence set out in writing. My film work so far is Cuatro Cruces, a short by Metrópolis C.E. (2024) with an orchestral, western score, plus personal soundtrack pieces published on my YouTube channel.",
+    "es": "Compongo bandas sonoras originales para cortometrajes, desde 50 € y con licencia exclusiva por escrito. Mi trabajo para cine hasta ahora es Cuatro Cruces, un cortometraje de Metrópolis C.E. (2024) con banda sonora orquestal de aire western, además de piezas personales de banda sonora publicadas en mi canal de YouTube."
+  },
+  "sections": [
+    {
+      "kind": "text",
+      "id": "who",
+      "heading": {
+        "en": "Who this is for",
+        "es": "Para quién es"
+      },
+      "body": [
+        {
+          "en": "Directors and producers of short films with a production budget: projects with funding or grants, production companies and film schools. You can get in touch with a finished cut or earlier, from the script.",
+          "es": "Directores y productores de cortometrajes con presupuesto de producción: proyectos con ayudas o financiación, productoras y escuelas de cine. Puedes escribirme con el montaje terminado o antes, desde el guion."
+        },
+        {
+          "en": "I work remotely from Murcia, Spain, and accept commissions from any country.",
+          "es": "Trabajo en remoto desde Murcia y acepto encargos de cualquier país."
+        }
+      ]
+    },
+    {
+      "kind": "works",
+      "id": "proof",
+      "heading": {
+        "en": "Cuatro Cruces (Metrópolis C.E., 2024)",
+        "es": "Cuatro Cruces (Metrópolis C.E., 2024)"
+      },
+      "intro": [
+        {
+          "en": "A short film by Metrópolis C.E. (2024). I composed its original score, orchestral with a western character. You can listen to it below.",
+          "es": "Cortometraje de Metrópolis C.E. (2024). Compuse su banda sonora original, orquestal y de aire western. Puedes escucharla aquí."
+        }
+      ],
+      "works": [
+        "cuatro-cruces"
+      ],
+      "tracklist": true
+    },
+    {
+      "kind": "text",
+      "id": "method",
+      "heading": {
+        "en": "Working with picture: what I propose",
+        "es": "Trabajar con la imagen: mi propuesta"
+      },
+      "body": [
+        {
+          "en": "This is the usual way to work on the music for a short, and how I propose to organise the commission; the details are agreed for each film:",
+          "es": "Así se suele trabajar la música de un corto, y así propongo organizar el encargo; el detalle se acuerda en cada película:"
+        }
+      ],
+      "items": [
+        {
+          "title": {
+            "en": "What I need to start",
+            "es": "Lo que necesito para empezar"
+          },
+          "text": {
+            "en": "The cut, or the script if the film hasn't been shot yet, and references for the tone. If the cut has temp music, it helps as a guide.",
+            "es": "El montaje, o el guion si aún no se ha rodado, y referencias del tono. Si el montaje lleva música provisional (temp track), sirve de guía."
+          }
+        },
+        {
+          "title": {
+            "en": "Deciding where the music goes",
+            "es": "Decidir dónde va la música"
+          },
+          "text": {
+            "en": "Before composing, we agree which scenes have music and what each piece has to convey.",
+            "es": "Antes de componer, acordamos qué escenas llevan música y qué tiene que transmitir cada pieza."
+          }
+        },
+        {
+          "title": {
+            "en": "Reviewing on the picture",
+            "es": "Revisión sobre la imagen"
+          },
+          "text": {
+            "en": "The usual approach is to review the music against the cut; changes are made within the revision rounds agreed in the quote.",
+            "es": "Lo habitual es revisar la música sobre el montaje; los cambios se hacen dentro de las rondas de revisión acordadas en el presupuesto."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "price-license",
+      "heading": {
+        "en": "Price, deadline and licence",
+        "es": "Precio, plazo y licencia"
+      },
+      "body": [
+        {
+          "en": "All three are set in writing in the quote before work starts.",
+          "es": "Los tres se fijan por escrito en el presupuesto antes de empezar."
+        }
+      ],
+      "items": [
+        {
+          "title": {
+            "en": "Price",
+            "es": "Precio"
+          },
+          "text": {
+            "en": "Commissions from €50. The final price depends on the minutes of music and the number of cues.",
+            "es": "Encargos desde 50 €. El precio final depende de los minutos de música y del número de piezas."
+          }
+        },
+        {
+          "title": {
+            "en": "Deadline",
+            "es": "Plazo"
+          },
+          "text": {
+            "en": "Set in the quote according to the scope. Tell me the date you need the music by (picture lock, a festival submission, the premiere) and I'll plan the work around it.",
+            "es": "Se fija en el presupuesto según el alcance. Dime para qué fecha necesitas la música (cierre de montaje, envío a un festival, estreno) y planifico el trabajo en función de ella."
+          }
+        },
+        {
+          "title": {
+            "en": "Exclusive licence in writing",
+            "es": "Licencia exclusiva por escrito"
+          },
+          "text": {
+            "en": "The music for your short is only for your short. The licence states the uses (festivals, distribution, online), the territory and the duration, so you have a document to show if you're asked about the music rights. I reserve the right to show the music in my portfolio from the premiere.",
+            "es": "La música de tu corto es solo para tu corto. La licencia recoge los usos (festivales, distribución, internet), el territorio y la duración, así que tienes un documento que presentar si te piden acreditar los derechos de la música. Me reservo mostrarla en mi portfolio a partir del estreno."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "seal",
+      "id": "no-ai",
+      "text": {
+        "en": "Composed without generative AI. If you ask, I'll send you examples of the creative process.",
+        "es": "Compuesto sin IA generativa. Si me lo pides, te envío ejemplos del proceso creativo."
+      },
+      "link": {
+        "page": "about",
+        "anchor": "no-ai",
+        "label": {
+          "en": "How I work",
+          "es": "Cómo trabajo"
+        }
+      }
+    },
+    {
+      "kind": "faq",
+      "id": "faq",
+      "heading": {
+        "en": "Frequently asked questions",
+        "es": "Preguntas frecuentes"
+      },
+      "items": [
+        {
+          "q": {
+            "en": "Do you compose for short films too, not just video games?",
+            "es": "¿También compones para cortometrajes, no solo para videojuegos?"
+          },
+          "a": {
+            "en": "Yes. I composed the original score for Cuatro Cruces, a short film by Metrópolis C.E. (2024), orchestral with a western character. Orchestral is my favourite style, in the vein of Game of Thrones, but I write in whatever style the film needs.",
+            "es": "Sí. Compuse la banda sonora original de Cuatro Cruces, un cortometraje de Metrópolis C.E. (2024), orquestal y de aire western. El orquestal es mi estilo favorito, al estilo de Juego de Tronos, pero compongo en el estilo que necesite la película."
+          }
+        },
+        {
+          "q": {
+            "en": "When should I contact a composer for my short?",
+            "es": "¿Cuándo conviene contactar con el compositor de mi corto?"
+          },
+          "a": {
+            "en": "As soon as you have a cut, even a rough one, or earlier with the script if you want to plan the music from the start. The earlier you write, the more room there is in the schedule for revisions before your deadline.",
+            "es": "En cuanto tengas un montaje, aunque sea provisional, o antes con el guion si quieres planificar la música desde el principio. Cuanto antes escribas, más margen queda para revisiones antes de tu fecha límite."
+          }
+        },
+        {
+          "q": {
+            "en": "Can I submit the short to festivals with this music?",
+            "es": "¿Puedo presentar el corto a festivales con esta música?"
+          },
+          "a": {
+            "en": "Yes, if the licence includes it: it covers the uses we agree in writing. Tell me where you plan to show the film (festivals, distribution, online) and those uses go in the quote.",
+            "es": "Sí, si la licencia lo recoge: cubre los usos que acordemos por escrito. Dime dónde piensas mostrar la película (festivales, distribución, internet) y esos usos quedan en el presupuesto."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "links",
+      "id": "related",
+      "heading": {
+        "en": "Related pages",
+        "es": "Páginas relacionadas"
+      },
+      "links": [
+        {
+          "page": "projects",
+          "label": {
+            "en": "All projects, track by track",
+            "es": "Todos los proyectos, tema a tema"
+          }
+        },
+        {
+          "page": "game-music",
+          "label": {
+            "en": "Music for indie games",
+            "es": "Música para videojuegos indie"
+          }
+        },
+        {
+          "page": "about",
+          "label": {
+            "en": "About me and composing without generative AI",
+            "es": "Sobre mí y la composición sin IA generativa"
+          }
+        }
+      ]
+    }
+  ]
+}

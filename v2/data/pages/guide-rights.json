@@ -1,0 +1,271 @@
+{
+  "id": "guide-rights",
+  "type": "guide",
+  "order": 60,
+  "in_nav": false,
+  "path": {
+    "en": "guides/game-music-rights/",
+    "es": "es/guias/derechos-musica-videojuego/"
+  },
+  "nav": {
+    "en": "Game music rights",
+    "es": "Derechos de la música"
+  },
+  "form_type": "game",
+  "seo": {
+    "title": {
+      "en": "Who Owns the Music in Your Game? Rights and Licences | DolmosMusic",
+      "es": "Derechos de la música de un videojuego: licencia y cesión | DolmosMusic"
+    },
+    "description": {
+      "en": "Exclusive or non-exclusive licence, buyout, soundtrack releases, Content ID and written contracts: what an indie developer should agree with the composer. Explained under Spanish law.",
+      "es": "Licencia exclusiva o no exclusiva, cesión total, banda sonora en plataformas, Content ID y contrato por escrito: qué acordar con el compositor de tu juego según la ley española."
+    }
+  },
+  "h1": {
+    "en": "Rights and licensing for game music",
+    "es": "Derechos y licencia de la música de un videojuego"
+  },
+  "intro": {
+    "en": "Who owns the music in a game depends on what the developer and the composer agree in writing. The usual options are a non-exclusive licence, an exclusive licence and a full assignment of the rights (a buyout). When I compose for a game, the client receives an exclusive licence for commercial use.",
+    "es": "De quién es la música de un juego depende de lo que el desarrollador y el compositor acuerden por escrito. Las opciones habituales son una licencia no exclusiva, una licencia exclusiva y la cesión total de los derechos. Cuando compongo para un juego, el cliente recibe una licencia exclusiva de uso comercial."
+  },
+  "author": null,
+  "published": null,
+  "modified": null,
+  "sections": [
+    {
+      "kind": "text",
+      "id": "summary",
+      "heading": {
+        "en": "Three types of agreement",
+        "es": "Tres tipos de acuerdo"
+      },
+      "body": [
+        {
+          "en": "Foxi Music's 2026 guide for game developers describes these models:",
+          "es": "La guía de Foxi Music para desarrolladores (2026) describe estos modelos:"
+        }
+      ],
+      "items": [
+        {
+          "title": {
+            "en": "Non-exclusive licence",
+            "es": "Licencia no exclusiva"
+          },
+          "text": {
+            "en": "You pay to use the music, but other developers can license the same track for their games. It's the standard model for music libraries and royalty-free platforms.",
+            "es": "Pagas por usar la música, pero otros desarrolladores pueden licenciar el mismo tema para sus juegos. Es el modelo habitual de las librerías de música y las plataformas libres de derechos."
+          }
+        },
+        {
+          "title": {
+            "en": "Exclusive licence",
+            "es": "Licencia exclusiva"
+          },
+          "text": {
+            "en": "Only you have the right to use the music. The price reflects that exclusivity, and the guide notes that these deals are uncommon at indie level.",
+            "es": "Solo tú tienes derecho a usar la música. El precio refleja esa exclusividad, y la guía señala que este tipo de acuerdo es poco habitual en el ámbito indie."
+          }
+        },
+        {
+          "title": {
+            "en": "Full assignment (work for hire or buyout)",
+            "es": "Cesión total (work for hire o buyout)"
+          },
+          "text": {
+            "en": "The studio keeps all rights to the music created for the project. The guide calls it the cleanest ownership position and also the most expensive route.",
+            "es": "El estudio se queda con todos los derechos de la música creada para el proyecto. La guía la describe como la opción más clara en cuanto a propiedad y también la más cara."
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.foximusic.com/blog/music-licensing-for-game-developers-guide/",
+          "label": {
+            "en": "Foxi Music: Understanding music licensing for game developers (2026)",
+            "es": "Foxi Music: Understanding music licensing for game developers (2026, en inglés)"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "law",
+      "heading": {
+        "en": "What Spanish law requires",
+        "es": "Qué dice la ley española"
+      },
+      "body": [
+        {
+          "en": "This guide takes Spanish law as its reference, because I work from Spain. The Spanish Intellectual Property Act (Ley de Propiedad Intelectual) sets three rules worth knowing before you sign:",
+          "es": "Esta guía toma como referencia la ley española, porque trabajo desde España. La Ley de Propiedad Intelectual fija tres reglas que conviene conocer antes de firmar:"
+        }
+      ],
+      "items": [
+        {
+          "title": {
+            "en": "In writing",
+            "es": "Por escrito"
+          },
+          "text": {
+            "en": "Every assignment of rights must be made in writing (article 45).",
+            "es": "Toda cesión de derechos debe formalizarse por escrito (artículo 45)."
+          }
+        },
+        {
+          "title": {
+            "en": "Term and territory",
+            "es": "Plazo y territorio"
+          },
+          "text": {
+            "en": "If the contract doesn't state a term, the assignment is limited to five years; if it doesn't state a territory, it is limited to the country where it was signed (article 43). That is why both should be written down.",
+            "es": "Si el contrato no indica plazo, la cesión se limita a cinco años; si no indica territorio, al país donde se firma (artículo 43). Por eso conviene dejar ambos por escrito."
+          }
+        },
+        {
+          "title": {
+            "en": "Exclusivity, stated expressly",
+            "es": "La exclusividad, de forma expresa"
+          },
+          "text": {
+            "en": "Exclusivity has to be agreed expressly. An exclusive assignee can exploit the work to the exclusion of everyone else, including the author, within the agreed scope (article 48).",
+            "es": "La exclusividad debe pactarse de forma expresa. Quien recibe una cesión en exclusiva puede explotar la obra con exclusión de cualquier otra persona, incluido el propio autor, dentro del ámbito pactado (artículo 48)."
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://papelea.com/es/leyes/ley-de-propiedad-intelectual/libro-primero_titulo-v_capitulo-i",
+          "label": {
+            "en": "Spanish Intellectual Property Act, articles 43 to 50 (in Spanish)",
+            "es": "Ley de Propiedad Intelectual, artículos 43 a 50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "ceded",
+      "heading": {
+        "en": "How I work: what the client receives",
+        "es": "Cómo trabajo: qué recibe el cliente"
+      },
+      "body": [
+        {
+          "en": "An exclusive licence for commercial use of the music composed for your project: the music for your project is only for your project.",
+          "es": "Una licencia exclusiva de uso comercial de la música compuesta para tu proyecto: la música de tu proyecto es solo para tu proyecto."
+        },
+        {
+          "en": "The uses, the territory and the duration are set in writing in each quote, so none of them is left to the default rules above.",
+          "es": "Los usos, el territorio y la duración se fijan por escrito en cada presupuesto, para que ninguno quede a merced de las reglas por defecto de la ley."
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "retained",
+      "heading": {
+        "en": "What I keep",
+        "es": "Qué me reservo"
+      },
+      "body": [
+        {
+          "en": "The right to show the music on my website, social media and portfolio as a sample of my work, from the project's release. Because exclusivity excludes everyone, the author included, within the agreed scope, this reservation is left outside the exclusivity in writing in the quote.",
+          "es": "El derecho a mostrar la música en mi web, mis redes y mi portfolio como muestra de mi trabajo, a partir del lanzamiento del proyecto. Como la exclusividad excluye también al autor dentro del ámbito pactado, esta reserva se deja fuera de la exclusiva por escrito en el presupuesto."
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "ost",
+      "heading": {
+        "en": "Releasing the soundtrack on streaming platforms",
+        "es": "Publicar la banda sonora en plataformas"
+      },
+      "body": [
+        {
+          "en": "It's common to release a game's soundtrack separately, on Steam as a soundtrack DLC, or on Spotify or Bandcamp. Who can do it, and how any income is shared, should not be assumed: it is agreed in writing in the quote.",
+          "es": "Es habitual publicar la banda sonora por separado, en Steam como DLC de banda sonora o en Spotify o Bandcamp. Quién puede hacerlo y cómo se reparten los ingresos, si los hay, no debe darse por supuesto: se acuerda por escrito en el presupuesto."
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "content-id",
+      "heading": {
+        "en": "Content ID and streamers",
+        "es": "Content ID y streamers"
+      },
+      "body": [
+        {
+          "en": "Content ID is YouTube's system for automatically detecting registered music in videos. Foxi Music's guide points out that music is one of the most common sources of Content ID claims, and that a licence for in-game use doesn't automatically cover a streamer's broadcast.",
+          "es": "Content ID es el sistema de YouTube que detecta automáticamente música registrada en los vídeos. La guía de Foxi Music señala que la música es una de las causas más frecuentes de reclamaciones de Content ID y que una licencia para usar la música dentro del juego no cubre automáticamente la retransmisión de un streamer."
+        },
+        {
+          "en": "If you want players to stream and upload videos of your game without claims, say so from the start so the licence covers it.",
+          "es": "Si quieres que los jugadores puedan retransmitir y subir vídeos de tu juego sin reclamaciones, dilo desde el principio para que la licencia lo contemple."
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "credit",
+      "heading": {
+        "en": "Composer credit",
+        "es": "El crédito del compositor"
+      },
+      "body": [
+        {
+          "en": "How the composer is credited (in the game's credits, on the store page, on the soundtrack release) is another point to put in writing. It is also how other studios find the composer's work.",
+          "es": "Cómo se acredita al compositor (en los créditos del juego, en la página de la tienda, en la publicación de la banda sonora) es otro punto que conviene dejar por escrito. Es también la forma en que otros estudios encuentran su trabajo."
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "notice",
+      "heading": {
+        "en": "This is not legal advice",
+        "es": "Esto no es asesoramiento jurídico"
+      },
+      "body": [
+        {
+          "en": "This guide explains general concepts and how I work; it is not legal advice. The legal framework cited is Spain's, and the rules differ in other countries. For a specific contract, or if your studio is outside Spain, consult a lawyer.",
+          "es": "Esta guía explica conceptos generales y cómo trabajo yo; no es asesoramiento jurídico. El marco legal citado es el español, y en otros países las reglas cambian. Para un contrato concreto, o si tu estudio está fuera de España, consulta con un abogado."
+        }
+      ]
+    },
+    {
+      "kind": "links",
+      "id": "related",
+      "heading": {
+        "en": "Related pages",
+        "es": "Páginas relacionadas"
+      },
+      "links": [
+        {
+          "page": "game-music",
+          "label": {
+            "en": "Music for indie games: services and pricing",
+            "es": "Música para videojuegos indie: servicios y precios"
+          }
+        },
+        {
+          "page": "guide-cost",
+          "label": {
+            "en": "How much does music for an indie game cost?",
+            "es": "¿Cuánto cuesta la música de un videojuego indie?"
+          }
+        },
+        {
+          "page": "film-music",
+          "label": {
+            "en": "Music for short films",
+            "es": "Música para cortometrajes"
+          }
+        }
+      ]
+    }
+  ]
+}

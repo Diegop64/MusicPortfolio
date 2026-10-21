@@ -1,0 +1,275 @@
+{
+  "id": "guide-cost",
+  "type": "guide",
+  "order": 50,
+  "in_nav": false,
+  "path": {
+    "en": "guides/indie-game-music-cost/",
+    "es": "es/guias/cuanto-cuesta-musica-videojuego/"
+  },
+  "nav": {
+    "en": "Game music cost",
+    "es": "Cuánto cuesta la música"
+  },
+  "form_type": "game",
+  "seo": {
+    "title": {
+      "en": "How Much Does Music for an Indie Game Cost? | DolmosMusic",
+      "es": "¿Cuánto cuesta la música de un videojuego indie? | DolmosMusic"
+    },
+    "description": {
+      "en": "What sets the price of an indie game soundtrack: minutes of music, number of tracks, sound design, licence and deadline. My commissions start at €50; market ranges from cited sources.",
+      "es": "Qué fija el precio de la banda sonora de un juego indie: minutos de música, número de pistas, diseño de sonido, licencia y plazo. Mis encargos empiezan en 50 €; rangos de mercado con fuente."
+    }
+  },
+  "h1": {
+    "en": "How much does music for an indie game cost?",
+    "es": "¿Cuánto cuesta la música de un videojuego indie?"
+  },
+  "intro": {
+    "en": "My commissions start at €50 for a small project. For a full soundtrack, the price depends mainly on three things: how many minutes of music the game needs, how many tracks they are split into, and whether sound design is included; the licence and the deadline also play a part. Below I explain each factor, how a real commission (Duelite) is scoped, and the market ranges published by other sources.",
+    "es": "Mis encargos empiezan en 50 € para un proyecto pequeño. En una banda sonora completa, el precio depende sobre todo de tres cosas: cuántos minutos de música necesita el juego, en cuántas pistas se reparten y si incluye diseño de sonido; también influyen la licencia y el plazo. Más abajo explico cada factor, cómo se calcula el alcance de un encargo real (Duelite) y qué rangos de mercado publican otras fuentes."
+  },
+  "author": null,
+  "published": null,
+  "modified": null,
+  "sections": [
+    {
+      "kind": "text",
+      "id": "factors",
+      "heading": {
+        "en": "What makes the price go up or down",
+        "es": "Qué hace subir o bajar el precio"
+      },
+      "body": [
+        {
+          "en": "These are the criteria I use to prepare a quote:",
+          "es": "Estos son los criterios con los que preparo un presupuesto:"
+        }
+      ],
+      "items": [
+        {
+          "title": {
+            "en": "Minutes of music",
+            "es": "Minutos de música"
+          },
+          "text": {
+            "en": "The main measure. A one-minute menu loop is not the same amount of work as a three-minute boss theme.",
+            "es": "Es la medida principal. Un bucle de un minuto para un menú no lleva el mismo trabajo que un tema de jefe de tres minutos."
+          }
+        },
+        {
+          "title": {
+            "en": "Number of tracks and what each one does",
+            "es": "Número de pistas y función de cada una"
+          },
+          "text": {
+            "en": "Each screen or state with its own music (map, battle, boss, shop, world) is a separate track to compose, and some need a looped version so they play without a cut.",
+            "es": "Cada pantalla o situación con música propia (mapa, combate, jefe, tienda, mundo) es una pista distinta que componer, y algunas necesitan versión en bucle para sonar sin cortes."
+          }
+        },
+        {
+          "title": {
+            "en": "Sound design",
+            "es": "Diseño de sonido"
+          },
+          "text": {
+            "en": "Sound effects (FX), foley and the rest of the game's sounds are a separate job from the music. Including them raises the price.",
+            "es": "Los efectos (FX), el foley y el resto de sonidos del juego son un trabajo aparte de la música. Incluirlos sube el precio."
+          }
+        },
+        {
+          "title": {
+            "en": "Licence",
+            "es": "Licencia"
+          },
+          "text": {
+            "en": "My quotes include an exclusive licence for commercial use. Other uses, such as releasing the soundtrack on streaming platforms, are agreed in the quote.",
+            "es": "Mis presupuestos incluyen licencia exclusiva de uso comercial. Otros usos, como publicar la banda sonora en plataformas, se acuerdan en el presupuesto."
+          }
+        },
+        {
+          "title": {
+            "en": "Deadline and revisions",
+            "es": "Plazo y revisiones"
+          },
+          "text": {
+            "en": "Both the deadline and the number of revision rounds are set in the quote. A short deadline means concentrating the work; if that affects the price, the quote says so.",
+            "es": "El plazo y el número de rondas de revisión se fijan en el presupuesto. Un plazo corto obliga a concentrar el trabajo; si eso afecta al precio, lo indica el presupuesto."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "case",
+      "heading": {
+        "en": "Example: the scope of the Duelite soundtrack",
+        "es": "Ejemplo: el alcance de la banda sonora de Duelite"
+      },
+      "body": [
+        {
+          "en": "Duelite is a western roguelite card game by Betaking Studios, released on Steam in November 2024. Its soundtrack has 11 tracks: a main theme; a map, a battle and a boss track for each of its three maps; and a shop track shared by all three maps.",
+          "es": "Duelite es un juego de cartas roguelite ambientado en el Oeste, de Betaking Studios, publicado en Steam en noviembre de 2024. Su banda sonora tiene 11 pistas: un tema principal; una pista de mapa, otra de combate y otra de jefe para cada uno de sus tres mapas; y una pista de tienda común a los tres."
+        },
+        {
+          "en": "For a quote, that list is the starting point. Changing the scope changes the number of tracks and therefore the price: two maps instead of three would remove three tracks, and a separate shop theme for each map would add two.",
+          "es": "Para un presupuesto, esa lista es el punto de partida. Si cambia el alcance, cambia el número de pistas y, con él, el precio: dos mapas en lugar de tres quitarían tres pistas, y una tienda con tema propio en cada mapa añadiría dos."
+        },
+        {
+          "en": "In its review the studio mentions \"a couple of adjustments along the way\". Revisions are part of the job, and the quote states how many rounds are included.",
+          "es": "En su opinión, el estudio menciona \"un par de ajustes por el camino\". Las revisiones forman parte del trabajo, y el presupuesto indica cuántas rondas incluye."
+        }
+      ],
+      "links": [
+        {
+          "page": "projects",
+          "anchor": "duelite",
+          "label": {
+            "en": "Listen to the 11 Duelite tracks",
+            "es": "Escuchar los 11 temas de Duelite"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "model",
+      "heading": {
+        "en": "How I charge",
+        "es": "Cómo cobro"
+      },
+      "body": [
+        {
+          "en": "I quote each commission in writing before starting. The quote is calculated from the minutes of music, the number of tracks and whether sound design is included, and it states the licence, the deadline and the revision rounds.",
+          "es": "Presupuesto cada encargo por escrito antes de empezar. El precio sale de los minutos de música, el número de pistas y si incluye diseño de sonido, y el presupuesto recoge la licencia, el plazo y las rondas de revisión."
+        },
+        {
+          "en": "The minimum is €50, for a small project such as a title screen theme or a few short tracks. That figure is where the smallest commission starts, not a price per minute: a soundtrack with several tracks, or one with sound design, is quoted on its scope.",
+          "es": "El mínimo son 50 €, para un proyecto pequeño como el tema de una pantalla de título o unas pocas pistas cortas. Esa cifra es el punto de partida del encargo más pequeño, no un precio por minuto: una banda sonora con varias pistas, o con diseño de sonido, se presupuesta según su alcance."
+        },
+        {
+          "en": "To get a quote, use the form below to send the list of screens that need music, a few references and your deadline.",
+          "es": "Para pedir presupuesto, envíame desde el formulario de abajo la lista de pantallas que necesitan música, algunas referencias y tu fecha límite."
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "sector",
+      "heading": {
+        "en": "What other sources publish",
+        "es": "Qué publican otras fuentes"
+      },
+      "body": [
+        {
+          "en": "These figures are not my prices. They are what two published sources say about the market, in US dollars per minute of music:",
+          "es": "Estas cifras no son mis precios. Son lo que dicen dos fuentes publicadas sobre el mercado, en dólares estadounidenses por minuto de música:"
+        }
+      ],
+      "items": [
+        {
+          "title": {
+            "en": "Game Developer, February 2023",
+            "es": "Game Developer, febrero de 2023"
+          },
+          "text": {
+            "en": "Winston Nguyen's article on commissioning music for a game gives $30–100 per minute for hobbyists, $200–400 for full-time indie composers and upwards of $1,000 for studio rates.",
+            "es": "El artículo de Winston Nguyen sobre cómo encargar la música de un juego da 30-100 $ por minuto para aficionados, 200-400 $ para compositores indie a tiempo completo y más de 1.000 $ para tarifas de estudio."
+          }
+        },
+        {
+          "title": {
+            "en": "Ninichi, November 2018",
+            "es": "Ninichi, noviembre de 2018"
+          },
+          "text": {
+            "en": "The game composer Ninichi gives a range of $50 to $2,500 per minute across the industry and $200–1,000 for experienced indie composers, and says budgets of $1,000–10,000 are common for indie games commissioning a custom soundtrack.",
+            "es": "La compositora de videojuegos Ninichi da un rango de 50 a 2.500 $ por minuto en el conjunto del sector y de 200 a 1.000 $ para compositores indie con experiencia, y señala que los presupuestos de 1.000 a 10.000 $ son habituales en juegos indie que encargan una banda sonora a medida."
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.gamedeveloper.com/game-platforms/how-to-commission-music-for-your-game",
+          "label": {
+            "en": "Game Developer: How to commission music for your game",
+            "es": "Game Developer: How to commission music for your game (en inglés)"
+          }
+        },
+        {
+          "url": "https://ninichimusic.com/blog/understanding-how-much-an-indie-game-music-composer-costs",
+          "label": {
+            "en": "Ninichi: Understanding how much an indie game music composer costs",
+            "es": "Ninichi: Understanding how much an indie game music composer costs (en inglés)"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "license",
+      "heading": {
+        "en": "How the licence affects the price",
+        "es": "Cómo influye la licencia en el precio"
+      },
+      "body": [
+        {
+          "en": "The type of licence changes what you are paying for. Foxi Music's 2026 guide for game developers explains that with a non-exclusive licence other developers can license the same track, while with an exclusive licence only you can use it, and the price reflects that.",
+          "es": "El tipo de licencia cambia lo que estás pagando. La guía de Foxi Music para desarrolladores (2026) explica que con una licencia no exclusiva otros desarrolladores pueden licenciar el mismo tema, mientras que con una exclusiva solo puedes usarlo tú, y el precio lo refleja."
+        },
+        {
+          "en": "In my commissions the music is written for your game and the licence is exclusive: the music for your project is only for your project. I reserve the right to show it in my portfolio from the release. The details are set in writing in the quote.",
+          "es": "En mis encargos la música se escribe para tu juego y la licencia es exclusiva: la música de tu proyecto es solo para tu proyecto. Me reservo mostrarla en mi portfolio a partir del lanzamiento. El detalle se fija por escrito en el presupuesto."
+        }
+      ],
+      "links": [
+        {
+          "page": "guide-rights",
+          "label": {
+            "en": "Guide: rights and licensing for game music",
+            "es": "Guía: derechos y licencia de la música de un videojuego"
+          }
+        },
+        {
+          "url": "https://www.foximusic.com/blog/music-licensing-for-game-developers-guide/",
+          "label": {
+            "en": "Foxi Music: Understanding music licensing for game developers (2026)",
+            "es": "Foxi Music: Understanding music licensing for game developers (2026, en inglés)"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "links",
+      "id": "related",
+      "heading": {
+        "en": "Related pages",
+        "es": "Páginas relacionadas"
+      },
+      "links": [
+        {
+          "page": "game-music",
+          "label": {
+            "en": "Music for indie games: services and pricing",
+            "es": "Música para videojuegos indie: servicios y precios"
+          }
+        },
+        {
+          "page": "guide-rights",
+          "label": {
+            "en": "Rights and licensing for game music",
+            "es": "Derechos y licencia de la música de un videojuego"
+          }
+        },
+        {
+          "page": "projects",
+          "label": {
+            "en": "All projects, track by track",
+            "es": "Todos los proyectos, tema a tema"
+          }
+        }
+      ]
+    }
+  ]
+}

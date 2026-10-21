@@ -1,4 +1,4 @@
-# DOlmosMusic (web actual, dirección "Créditos")
+# DolmosMusic (web actual, dirección "Créditos")
 
 Este es el código de la web. `build.py` genera la página en `docs/`, que es la carpeta que publica
 GitHub Pages en www.dolmosmusic.com. La versión anterior está guardada en `legacy/` (ver abajo).
@@ -59,6 +59,29 @@ corregir, por ejemplo: `Trabajo 2 (Cuatro Cruces): el enlace no es de YouTube`.
 Subtítulo del hero, aviso "Compuesto sin IA" (`no_ai`), sobre mí, opinión, catálogo, preguntas frecuentes, redes, correo, formulario
 (Formspree) y SEO. Los textos de botones y etiquetas están en `I18N`, al principio de `build.py`.
 
+## Páginas: `data/pages/<id>.json`
+
+Cada archivo es una página con su pareja EN/ES: `path` (carpeta con barra final; la ES empieza por `es/`),
+`nav` (etiqueta corta de enlaces y migas), `in_nav` (aparece en la cabecera; todas salen en el pie), `seo.title`,
+`seo.description`, `h1`, `intro` y `sections`. Tipos (`type`): `service`, `projects`, `guide`, `about`.
+Secciones (`kind`): `text` (encabezado, `body`, `items`, `figures`, `links`), `works` (créditos con tema a tema),
+`projects` (grupo `commissions` o `personal`), `testimonial`, `catalog` (niveles con precio), `faq`, `seal`, `links`.
+Todos los textos son `{ "en": "...", "es": "..." }`. Lo que empieza por `[REDACTOR` o `[PENDIENTE` está sin escribir:
+`build.py` lo avisa por consola. Para añadir una página, crea su JSON y ejecuta la build: entra sola en el
+sitemap, el pie y el hreflang. La build falla si dos páginas repiten title, h1 o description, o si falta una ruta.
+
+## Marca y email
+
+La marca (`brand`, `brand_alt`) y el email (`email`) están solo en `data/site.json`. Cambiar el email es una línea
+(sale en el pie, el formulario, el JSON-LD y el mensaje de error). El destino de los envíos del formulario se
+configura aparte, en la cuenta de Formspree del formulario `formspree`.
+
+## Trabajos: campos nuevos
+
+`store` (`{ "name": "Steam", "url": "..." }`), `year_released`, `year_composed`, `featured` (1, 2, 3: los que salen en la
+home), `personal` (piezas personales), `role`, `brief`, `cover_alt`, `style` (estilo musical si difiere de `genre`) y, para
+cortos, `director`, `duration`, `music_minutes`, `festivals`, `film_url`. Todos opcionales.
+
 ## Estructura
 
 ```
@@ -72,9 +95,9 @@ v2/
 ```
 
 `build.py` también crea en `docs/`:
-- `sitemap.xml` con la portada en inglés y en español.
-- Redirecciones desde las páginas antiguas (`about.html`, `portfolio.html`, `contact.html` y sus
-  versiones en `/es/`) a la sección correspondiente de la portada.
+- `sitemap.xml` con todas las páginas (lastmod = último cambio real, guardado en `data/lastmod.json`).
+- Páginas puente desde las URLs antiguas (`about.html`, `portfolio.html`, `contact.html` y sus versiones en `/es/`):
+  meta refresh y canónica al destino, sin noindex (GitHub Pages no permite 301).
 - `sw.js`, que borra la caché que dejó la versión anterior en los navegadores de quien ya la visitó
   y se desinstala.
 - Los enlaces a `style.css` y `main.js` llevan `?v=...`, que cambia solo cuando cambian, para que

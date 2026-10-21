@@ -1,0 +1,95 @@
+{
+  "id": "projects",
+  "type": "projects",
+  "order": 30,
+  "in_nav": true,
+  "path": {
+    "en": "projects/",
+    "es": "es/proyectos/"
+  },
+  "nav": {
+    "en": "Projects",
+    "es": "Proyectos"
+  },
+  "seo": {
+    "title": {
+      "en": "Soundtrack Projects: Games on Steam and Short Films | DolmosMusic",
+      "es": "Proyectos: bandas sonoras para videojuegos y cortometrajes | DolmosMusic"
+    },
+    "description": {
+      "en": "Soundtracks by Diego Olmos for Duelite, Rabbit Trail and Catch & Defense (Betaking Studios, on Steam) and the short film Cuatro Cruces, with full track lists and store links.",
+      "es": "Bandas sonoras de Diego Olmos para Duelite, Rabbit Trail y Catch & Defense (Betaking Studios, en Steam) y el cortometraje Cuatro Cruces, con todos los temas y enlace a cada juego."
+    }
+  },
+  "h1": {
+    "en": "Soundtrack projects",
+    "es": "Proyectos de bandas sonoras"
+  },
+  "intro": {
+    "en": "Soundtracks composed on commission, with the client, the release year, a link to the game and the full track list. Below them are the personal pieces I composed in 2021 and 2022.",
+    "es": "Bandas sonoras compuestas por encargo, con el cliente, el año de lanzamiento, el enlace al juego y la lista completa de temas. Debajo están las piezas personales que compuse en 2021 y 2022."
+  },
+  "sections": [
+    {
+      "kind": "projects",
+      "id": "commissions",
+      "group": "commissions",
+      "heading": {
+        "en": "Commissioned soundtracks",
+        "es": "Encargos"
+      },
+      "intro": [
+        {
+          "en": "Three games for Betaking Studios, all released on Steam, and one short film for Metrópolis C.E.",
+          "es": "Tres videojuegos para Betaking Studios, todos publicados en Steam, y un cortometraje para Metrópolis C.E."
+        }
+      ]
+    },
+    {
+      "kind": "projects",
+      "id": "personal",
+      "group": "personal",
+      "heading": {
+        "en": "Personal pieces (2021–2022)",
+        "es": "Piezas personales (2021–2022)"
+      },
+      "intro": [
+        {
+          "en": "They cover different styles: traditional Japanese, indie, dark fantasy and others.",
+          "es": "Recorren distintos estilos: japonés tradicional, indie, fantasía oscura y otros."
+        }
+      ]
+    },
+    {
+      "kind": "links",
+      "id": "related",
+      "heading": {
+        "en": "Related pages",
+        "es": "Páginas relacionadas"
+      },
+      "links": [
+        {
+          "page": "game-music",
+          "label": {
+            "en": "Music for indie games",
+            "es": "Música para videojuegos indie"
+          }
+        },
+        {
+          "page": "film-music",
+          "label": {
+            "en": "Music for short films",
+            "es": "Música para cortometrajes"
+          }
+        },
+        {
+          "page": "about",
+          "label": {
+            "en": "About me and composing without generative AI",
+            "es": "Sobre mí y la composición sin IA generativa"
+          }
+        }
+      ]
+    }
+  ]
+}

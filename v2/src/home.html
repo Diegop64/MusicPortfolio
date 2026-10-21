@@ -1,0 +1,50 @@
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-beam" aria-hidden="true"></div>
+      <h1 class="hero-name" id="hero-title">{{name}}{{{hero_role}}}</h1>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#soundtracks" data-open-first><svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1 0l9 5-9 5z"/></svg>{{t_cta_listen}}</a>
+        <a class="btn btn-quiet" href="#contact">{{t_cta_quote}}</a>
+      </div>
+      <a class="hero-note" href="#no-ai">{{no_ai_hero_link}}</a>
+    </section>
+
+    <section class="works" id="soundtracks" aria-labelledby="works-title">
+      <h2 class="section-title" id="works-title">{{t_works_title}}</h2>
+      <ol class="credits">
+{{{works}}}
+      </ol>
+      <p class="works-all"><a class="btn btn-quiet" href="{{projects_href}}">{{t_all_projects}}</a></p>
+      <div class="no-ai" id="no-ai">
+        <h2 class="no-ai-title">{{no_ai_title}}</h2>
+        <p>{{no_ai_text}}</p>
+        <a class="btn btn-quiet" href="#contact" data-prefill="{{no_ai_prefill}}">{{no_ai_cta}}</a>
+      </div>
+      <p class="works-more">{{{works_more}}}</p>
+    </section>
+
+{{{services_block}}}
+    <section class="about" id="about" aria-labelledby="about-title">
+      {{{about_picture}}}
+      <div class="about-text">
+        <h2 class="section-title" id="about-title">{{t_about_title}}</h2>
+{{{about_paragraphs}}}
+        <p class="about-more"><a href="{{about_href}}">{{t_about_more}}</a></p>
+        <p class="about-social">{{{social_links}}}</p>
+      </div>
+    </section>
+
+    <section class="quote" aria-labelledby="quote-title">
+      <h2 class="visually-hidden" id="quote-title">{{t_testimonial_title}}</h2>
+      <figure>
+        <blockquote><p>{{testimonial_quote}}</p></blockquote>
+        <figcaption><img src="{{root}}{{testimonial_logo}}" alt="" width="40" height="40" loading="lazy">{{testimonial_author}}</figcaption>
+      </figure>
+    </section>
+
+{{{catalog_block}}}
+{{{faq_block}}}
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <h2 class="section-title" id="contact-title">{{t_contact_title}}</h2>
+      <p class="contact-lead">{{t_contact_lead}} <a href="mailto:{{email}}">{{email}}</a></p>
+{{{form}}}
+    </section>

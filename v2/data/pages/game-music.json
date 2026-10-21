@@ -1,0 +1,473 @@
+{
+  "id": "game-music",
+  "type": "service",
+  "order": 10,
+  "in_nav": true,
+  "path": {
+    "en": "game-music/",
+    "es": "es/musica-para-videojuegos/"
+  },
+  "nav": {
+    "en": "Video games",
+    "es": "Videojuegos"
+  },
+  "form_type": "game",
+  "seo": {
+    "title": {
+      "en": "Music for Indie Games: Original Soundtracks and Sound Design | DolmosMusic",
+      "es": "Música para videojuegos indie: bandas sonoras y diseño de sonido | DolmosMusic"
+    },
+    "description": {
+      "en": "Original soundtracks for indie games from €50: a track for each screen, files ready for the game and optional sound design. Exclusive licence. Composer of Duelite, Rabbit Trail and Catch & Defense.",
+      "es": "Bandas sonoras originales para videojuegos indie desde 50 €: una pista para cada pantalla, archivos listos para el juego y diseño de sonido opcional. Licencia exclusiva. Compositor de Duelite, Rabbit Trail y Catch & Defense."
+    }
+  },
+  "h1": {
+    "en": "Original music for indie games",
+    "es": "Música original para videojuegos indie"
+  },
+  "intro": {
+    "en": "I compose soundtracks for indie games in development: a main theme and the music for each map, level, battle or menu, delivered as files ready to integrate into the game. Commissions start at €50 and include an exclusive licence. I can also handle the sound design (sound effects, foley and the rest of the game's sounds).",
+    "es": "Compongo bandas sonoras para videojuegos indie en desarrollo: un tema principal y la música de cada mapa, nivel, combate o menú, entregada en archivos preparados para integrarse en el juego. Los encargos empiezan en 50 € e incluyen licencia exclusiva. También puedo encargarme del diseño de sonido (efectos, foley y el resto de sonidos del juego)."
+  },
+  "sections": [
+    {
+      "kind": "text",
+      "id": "who",
+      "heading": {
+        "en": "Who this is for",
+        "es": "Para quién es"
+      },
+      "body": [
+        {
+          "en": "Studios and solo developers with a commercial game in development, for Steam, consoles or any other store, who want music written for their game instead of library tracks. Most of my work so far has been for indie games, and one studio, Betaking Studios, has commissioned the music for three of its games.",
+          "es": "Estudios y desarrolladores en solitario con un juego comercial en desarrollo, para Steam, consolas u otra tienda, que quieren música escrita para su juego y no pistas de librería. La mayoría de mis encargos han sido videojuegos indie, y un mismo estudio, Betaking Studios, me ha encargado la música de tres de sus juegos."
+        },
+        {
+          "en": "I work remotely from Murcia, Spain, and accept commissions from any country. If your game is still a prototype you can write anyway: the quote gets more precise as the screens and levels that need music are defined.",
+          "es": "Trabajo en remoto desde Murcia y acepto encargos de cualquier país. Si tu juego todavía es un prototipo, puedes escribirme igualmente: el presupuesto será más preciso cuanto más definidas estén las pantallas y niveles que necesitan música."
+        }
+      ]
+    },
+    {
+      "kind": "works",
+      "id": "proof",
+      "heading": {
+        "en": "Soundtracks for games released on Steam",
+        "es": "Bandas sonoras de juegos publicados en Steam"
+      },
+      "intro": [
+        {
+          "en": "Duelite, Rabbit Trail and Catch & Defense are Betaking Studios games released on Steam between 2024 and 2026. Each track list shows how the music is organised around what the player is doing: map, battle, boss, shop or world.",
+          "es": "Duelite, Rabbit Trail y Catch & Defense son juegos de Betaking Studios publicados en Steam entre 2024 y 2026. Cada lista de temas muestra cómo se organiza la música según lo que hace el jugador: mapa, combate, jefe, tienda o mundo."
+        }
+      ],
+      "works": [
+        "duelite",
+        "rabbit-trail",
+        "catch-and-defense"
+      ],
+      "tracklist": true
+    },
+    {
+      "kind": "testimonial",
+      "id": "testimonial",
+      "heading": {
+        "en": "Betaking Studios on the Duelite soundtrack",
+        "es": "Betaking Studios sobre la banda sonora de Duelite"
+      }
+    },
+    {
+      "kind": "catalog",
+      "id": "pricing",
+      "heading": {
+        "en": "Services and pricing",
+        "es": "Servicios y precios"
+      },
+      "lead": {
+        "en": "Commissions from €50. The final price depends on the minutes of music, the number of tracks and whether sound effects are included.",
+        "es": "Encargos desde 50 €. El precio final depende de los minutos, el número de pistas y si incluye efectos de sonido."
+      },
+      "intro": [
+        {
+          "en": "Every commission gets a written quote before work starts, listing the tracks and what each one is for, the licence, the delivery date and the revision rounds. These three options describe the usual scope; a project can also sit between two of them.",
+          "es": "Cada encargo tiene un presupuesto por escrito antes de empezar, con las pistas y la función de cada una, la licencia, la fecha de entrega y las rondas de revisión. Estas tres opciones describen el alcance habitual; un proyecto también puede quedar entre dos de ellas."
+        }
+      ],
+      "tiers": [
+        {
+          "name": {
+            "en": "Small project",
+            "es": "Proyecto pequeño"
+          },
+          "price": {
+            "en": "From €50",
+            "es": "Desde 50 €"
+          },
+          "text": {
+            "en": "One or a few tracks: a title screen, a trailer, a cutscene or a few levels. Delivered ready for the game, with looped versions where a track needs them.",
+            "es": "Uno o pocos temas: la pantalla de título, un tráiler, una cinemática o algunos niveles. Se entrega preparado para el juego, con versión en bucle si la pista lo necesita."
+          }
+        },
+        {
+          "name": {
+            "en": "Soundtrack with several tracks",
+            "es": "Banda sonora con varias pistas"
+          },
+          "price": {
+            "en": "Quoted by minutes and tracks",
+            "es": "Según minutos y pistas"
+          },
+          "text": {
+            "en": "A main theme plus the music for each map, world, battle or menu. Duelite, for example, has 11 tracks: the main theme, three for each of its three maps (map screen, battle and boss) and one for the shop.",
+            "es": "Un tema principal y la música de cada mapa, mundo, combate o menú. Duelite, por ejemplo, tiene 11 pistas: el tema principal, tres para cada uno de sus tres mapas (pantalla de mapa, combate y jefe) y una para la tienda."
+          }
+        },
+        {
+          "name": {
+            "en": "Full soundtrack with sound design",
+            "es": "Banda sonora completa con diseño de sonido"
+          },
+          "price": {
+            "en": "Quoted on scope",
+            "es": "Presupuesto según alcance"
+          },
+          "text": {
+            "en": "Everything in the previous option plus the game's complete sound design: sound effects (FX), foley and the rest of the sounds the game needs.",
+            "es": "Todo lo de la opción anterior más el diseño de sonido completo del juego: efectos (FX), foley y el resto de sonidos que necesite."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "pricing-guide",
+      "body": [
+        {
+          "en": "If you are still working out a budget, the pricing guide explains what makes a soundtrack cost more or less, with the Duelite commission as an example and the market ranges published by other sources.",
+          "es": "Si todavía estás calculando el presupuesto, la guía de precios explica qué hace que una banda sonora cueste más o menos, con el encargo de Duelite como ejemplo y los rangos de mercado que publican otras fuentes."
+        }
+      ],
+      "links": [
+        {
+          "page": "guide-cost",
+          "label": {
+            "en": "How much does music for an indie game cost?",
+            "es": "¿Cuánto cuesta la música de un videojuego indie?"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "deliverables",
+      "heading": {
+        "en": "What you receive",
+        "es": "Qué recibes"
+      },
+      "body": [
+        {
+          "en": "The exact list goes in the quote. A game commission usually includes:",
+          "es": "La lista exacta va en el presupuesto. Un encargo para un juego suele incluir:"
+        }
+      ],
+      "items": [
+        {
+          "title": {
+            "en": "A main theme",
+            "es": "Un tema principal"
+          },
+          "text": {
+            "en": "The piece that identifies the game, typically for the title screen and trailers. All three Betaking Studios games have one.",
+            "es": "La pieza que identifica al juego, normalmente para la pantalla de título y los tráileres. Los tres juegos de Betaking Studios tienen el suyo."
+          }
+        },
+        {
+          "title": {
+            "en": "Music for each screen or state",
+            "es": "Música para cada pantalla o situación"
+          },
+          "text": {
+            "en": "One track for each situation the player goes through (map, battle, boss, shop, world), written for what happens on screen.",
+            "es": "Una pista para cada situación por la que pasa el jugador (mapa, combate, jefe, tienda, mundo), escrita para lo que ocurre en pantalla."
+          }
+        },
+        {
+          "title": {
+            "en": "Game-ready delivery",
+            "es": "Entrega lista para el juego"
+          },
+          "text": {
+            "en": "Files prepared to integrate into the game, including looped versions when the track needs them. File formats are agreed in the quote.",
+            "es": "Archivos preparados para integrarse en el juego, incluidas versiones en bucle cuando la pista lo necesita. Los formatos se acuerdan en el presupuesto."
+          }
+        },
+        {
+          "title": {
+            "en": "Sound design, if you need it",
+            "es": "Diseño de sonido, si lo necesitas"
+          },
+          "text": {
+            "en": "Sound effects (FX), foley and the rest of the game's sounds, quoted together with the music.",
+            "es": "Efectos de sonido (FX), foley y el resto de sonidos del juego, en el mismo presupuesto que la música."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "timeline",
+      "heading": {
+        "en": "Deadlines and revisions",
+        "es": "Plazos y revisiones"
+      },
+      "body": [
+        {
+          "en": "The deadline and the number of revision rounds are set in the quote, according to the scope. Tell me your key dates in the first message (a demo, a festival, Steam Next Fest, the launch) and I'll plan the deliveries around them.",
+          "es": "El plazo y las rondas de revisión se fijan en el presupuesto según el alcance. Indícame tus fechas clave en el primer mensaje (una demo, un festival, el Steam Next Fest, el lanzamiento) y planifico las entregas en función de ellas."
+        },
+        {
+          "en": "You review each track before it's considered finished. On Duelite, as the studio mentions in its review, there were a couple of adjustments along the way to make the music fit the atmosphere of the game.",
+          "es": "Cada pista la revisas tú antes de darla por terminada. En Duelite, como cuenta el estudio en su opinión, hubo un par de ajustes por el camino para que la música encajara con la atmósfera del juego."
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "rights",
+      "heading": {
+        "en": "Rights and licence",
+        "es": "Derechos y licencia"
+      },
+      "body": [
+        {
+          "en": "Exclusive licence: the music for your project is only for your project. You can use it commercially in your game and I won't license it to anyone else.",
+          "es": "Licencia exclusiva: la música de tu proyecto es solo para tu proyecto. Puedes usarla comercialmente en tu juego y no la licencio a nadie más."
+        },
+        {
+          "en": "I reserve the right to show it in my portfolio, on my website and on social media, from the game's release.",
+          "es": "Me reservo mostrarla en mi portfolio, en mi web y en redes a partir del lanzamiento."
+        },
+        {
+          "en": "The details (uses, territory, duration, releasing the soundtrack on streaming platforms) are set in writing in each quote. This is a summary of how I work, not legal advice.",
+          "es": "El detalle (usos, territorio, duración, publicación de la banda sonora en plataformas) se fija por escrito en cada presupuesto. Esto resume cómo trabajo; no es asesoramiento jurídico."
+        }
+      ],
+      "links": [
+        {
+          "page": "guide-rights",
+          "label": {
+            "en": "Guide: rights and licensing for game music",
+            "es": "Guía: derechos y licencia de la música de un videojuego"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "how-to-start",
+      "heading": {
+        "en": "When to get in touch and what to send",
+        "es": "Cuándo escribirme y qué enviar"
+      },
+      "body": [
+        {
+          "en": "You can write at any stage of development; the more defined the game, the more precise the quote. These three things are enough to start:",
+          "es": "Puedes escribirme en cualquier fase del desarrollo; cuanto más definido esté el juego, más preciso será el presupuesto. Para empezar basta con esto:"
+        }
+      ],
+      "items": [
+        {
+          "title": {
+            "en": "The screens or situations that need music",
+            "es": "Las pantallas o situaciones que necesitan música"
+          },
+          "text": {
+            "en": "For example: title screen, three maps, battles, boss fights and a shop. The quote is calculated from that list.",
+            "es": "Por ejemplo: pantalla de título, tres mapas, combates, jefes y tienda. El presupuesto se calcula a partir de esa lista."
+          }
+        },
+        {
+          "title": {
+            "en": "References",
+            "es": "Referencias"
+          },
+          "text": {
+            "en": "Games, soundtracks or tracks with the tone you're after, and what you like about each one. Some ideas are hard to put into words; references help with that.",
+            "es": "Juegos, bandas sonoras o temas con el tono que buscas, y qué te gusta de cada uno. Hay ideas difíciles de explicar con palabras, y las referencias ayudan."
+          }
+        },
+        {
+          "title": {
+            "en": "A build or video, and your dates",
+            "es": "Una build o un vídeo, y tus fechas"
+          },
+          "text": {
+            "en": "A playable build, gameplay footage or screenshots, plus the date you need the music by. The form below has a field for the link.",
+            "es": "Una build jugable, un vídeo de partida o capturas, y la fecha para la que necesitas la música. El formulario de abajo tiene un campo para el enlace."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "styles",
+      "heading": {
+        "en": "Musical styles",
+        "es": "Estilos musicales"
+      },
+      "body": [
+        {
+          "en": "I adapt to most of the styles a game may need. My favourite is orchestral, in the vein of Game of Thrones. What you can listen to on this site:",
+          "es": "Me adapto a la mayoría de estilos que puede necesitar un juego. Mi favorito es el orquestal, al estilo de Juego de Tronos. Lo que puedes escuchar en esta web:"
+        }
+      ],
+      "items": [
+        {
+          "title": {
+            "en": "Orchestral and western",
+            "es": "Orquestal y western"
+          },
+          "text": {
+            "en": "Duelite and the short film Cuatro Cruces.",
+            "es": "Duelite y el cortometraje Cuatro Cruces."
+          }
+        },
+        {
+          "title": {
+            "en": "Retro and chiptune",
+            "es": "Retro y chiptune"
+          },
+          "text": {
+            "en": "Rabbit Trail, a puzzle game: one track for each of its first six worlds.",
+            "es": "Rabbit Trail, un juego de puzles: una pista para cada uno de sus seis primeros mundos."
+          }
+        },
+        {
+          "title": {
+            "en": "Traditional Japanese, indie and dark fantasy",
+            "es": "Japonés tradicional, indie y fantasía oscura"
+          },
+          "text": {
+            "en": "Koto, Clarity and Depth, personal pieces from 2021–2022 on the projects page.",
+            "es": "Koto, Clarity y Depth, piezas personales de 2021–2022 en la página de proyectos."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "seal",
+      "id": "no-ai",
+      "text": {
+        "en": "Composed without generative AI. If you ask, I'll send you examples of the creative process.",
+        "es": "Compuesto sin IA generativa. Si me lo pides, te envío ejemplos del proceso creativo."
+      },
+      "link": {
+        "page": "about",
+        "anchor": "no-ai",
+        "label": {
+          "en": "How I work",
+          "es": "Cómo trabajo"
+        }
+      }
+    },
+    {
+      "kind": "faq",
+      "id": "faq",
+      "heading": {
+        "en": "Frequently asked questions",
+        "es": "Preguntas frecuentes"
+      },
+      "items": [
+        {
+          "q": {
+            "en": "How much does the music for a game cost?",
+            "es": "¿Cuánto cuesta la música para un videojuego?"
+          },
+          "a": {
+            "en": "Commissions start at €50 for a small project. The final price depends on the minutes of music, the number of tracks and whether sound effects are included. I send a written quote for each project, and the pricing guide explains the criteria in detail.",
+            "es": "Los encargos empiezan en 50 € para un proyecto pequeño. El precio final depende de los minutos de música, el número de pistas y si incluye efectos de sonido. Envío un presupuesto por escrito para cada proyecto, y la guía de precios explica los criterios con detalle."
+          }
+        },
+        {
+          "q": {
+            "en": "What kind of music do you compose?",
+            "es": "¿Qué tipo de música compones?"
+          },
+          "a": {
+            "en": "It depends on the game: orchestral and western (Duelite), retro and chiptune (Rabbit Trail), and other styles in my personal pieces. My favourite is orchestral, in the vein of Game of Thrones.",
+            "es": "Depende del juego: orquestal y western (Duelite), retro y chiptune (Rabbit Trail) y otros estilos en mis piezas personales. Mi favorito es el orquestal, al estilo de Juego de Tronos."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the process, and how do revisions work?",
+            "es": "¿Cómo es el proceso y cómo funcionan las revisiones?"
+          },
+          "a": {
+            "en": "We start with a conversation about the game so I understand what you need. Then I send a written quote with the tracks, the licence, the deadline and the revision rounds. I compose, you review each track, and I adjust it within those rounds until it fits the game.",
+            "es": "Empezamos con una conversación sobre el juego para entender qué necesitas. Después te envío un presupuesto por escrito con las pistas, la licencia, el plazo y las rondas de revisión. Compongo, revisas cada pista y la ajusto dentro de esas rondas hasta que encaja con el juego."
+          }
+        },
+        {
+          "q": {
+            "en": "Do you also make the sound effects?",
+            "es": "¿También haces los efectos de sonido?"
+          },
+          "a": {
+            "en": "Yes. I offer complete sound design for games: sound effects (FX), foley and the rest of the game's sounds. If you need it, it goes in the same quote as the music.",
+            "es": "Sí. Ofrezco diseño de sonido completo para juegos: efectos (FX), foley y el resto de sonidos del juego. Si lo necesitas, va en el mismo presupuesto que la música."
+          }
+        },
+        {
+          "q": {
+            "en": "Who owns the music once it's delivered?",
+            "es": "¿De quién es la música cuando me la entregas?"
+          },
+          "a": {
+            "en": "You receive an exclusive licence for commercial use. I keep the right to show the music in my portfolio from the game's release. Uses, territory and duration are set in writing in the quote.",
+            "es": "Recibes una licencia exclusiva de uso comercial. Me reservo mostrar la música en mi portfolio a partir del lanzamiento. Los usos, el territorio y la duración se fijan por escrito en el presupuesto."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "links",
+      "id": "related",
+      "heading": {
+        "en": "Related pages",
+        "es": "Páginas relacionadas"
+      },
+      "links": [
+        {
+          "page": "guide-cost",
+          "label": {
+            "en": "How much does music for an indie game cost?",
+            "es": "¿Cuánto cuesta la música de un videojuego indie?"
+          }
+        },
+        {
+          "page": "projects",
+          "label": {
+            "en": "All projects, track by track",
+            "es": "Todos los proyectos, tema a tema"
+          }
+        },
+        {
+          "page": "film-music",
+          "label": {
+            "en": "Music for short films",
+            "es": "Música para cortometrajes"
+          }
+        },
+        {
+          "page": "about",
+          "label": {
+            "en": "About me and composing without generative AI",
+            "es": "Sobre mí y la composición sin IA generativa"
+          }
+        }
+      ]
+    }
+  ]
+}

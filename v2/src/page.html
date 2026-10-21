@@ -4,14 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{seo_title}}</title>
-  <meta name="description" content="{{seo_description}}">
-  <meta name="keywords" content="{{seo_keywords}}">
+  <meta name="description" content="{{seo_description}}">{{{meta_keywords}}}
   <meta name="author" content="{{name}}">
   <meta name="theme-color" content="#1F1C19">
   <link rel="canonical" href="{{canonical}}">
-  <link rel="alternate" hreflang="en" href="{{url_en}}">
-  <link rel="alternate" hreflang="es" href="{{url_es}}">
-  <link rel="alternate" hreflang="x-default" href="{{url_en}}">
+{{{hreflang_links}}}
   <link rel="icon" href="{{root}}favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="{{root}}images/favicon-32x32.png">
   <link rel="apple-touch-icon" href="{{root}}images/apple-touch-icon.png">
@@ -19,7 +16,7 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="{{og_locale}}">
   <meta property="og:url" content="{{canonical}}">
-  <meta property="og:site_name" content="DolmosMusic">
+  <meta property="og:site_name" content="{{brand}}">
   <meta property="og:title" content="{{seo_title}}">
   <meta property="og:description" content="{{seo_description}}">
   <meta property="og:image" content="{{og_image}}">
@@ -34,100 +31,30 @@
   {{{jsonld}}}
 </head>
 <body>
-  <a class="skip" href="#soundtracks">{{t_skip}}</a>
+  <a class="skip" href="{{skip_target}}">{{skip_text}}</a>
 
   <header class="nav">
-    <a class="nav-mark" href="{{home}}">{{brand}}</a>
+    <a class="nav-mark" href="{{home_href}}">{{brand}}</a>
     <nav aria-label="{{t_nav}}">
       <ul>
-        <li class="opt-sm"><a href="#soundtracks">{{t_nav_works}}</a></li>
-        <li class="opt"><a href="#about">{{t_nav_about}}</a></li>
-        <li class="opt"><a href="#catalog">{{t_nav_catalog}}</a></li>
-        <li><a href="#contact">{{t_nav_contact}}</a></li>
-        <li><a href="{{other_url}}" lang="{{other_lang}}" hreflang="{{other_lang}}">{{other_lang_label}}</a></li>
+{{{nav_items}}}
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-beam" aria-hidden="true"></div>
-      <h1 class="hero-name" id="hero-title">{{name}}</h1>
-      <p class="hero-sub">{{hero_subtitle}}</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#soundtracks" data-open-first><svg viewBox="0 0 10 10" aria-hidden="true"><path d="M1 0l9 5-9 5z"/></svg>{{t_cta_listen}}</a>
-        <a class="btn btn-quiet" href="#contact">{{t_cta_quote}}</a>
-      </div>
-      <a class="hero-note" href="#no-ai">{{no_ai_hero_link}}</a>
-    </section>
-
-    <section class="works" id="soundtracks" aria-labelledby="works-title">
-      <h2 class="section-title" id="works-title">{{t_works_title}}</h2>
-      <ol class="credits">
-{{{works}}}
-      </ol>
-      <div class="no-ai" id="no-ai">
-        <h2 class="no-ai-title">{{no_ai_title}}</h2>
-        <p>{{no_ai_text}}</p>
-        <a class="btn btn-quiet" href="#contact" data-prefill="{{no_ai_prefill}}">{{no_ai_cta}}</a>
-      </div>
-      <p class="works-more">{{{works_more}}}</p>
-    </section>
-
-    <section class="about" id="about" aria-labelledby="about-title">
-      {{{about_picture}}}
-      <div class="about-text">
-        <h2 class="section-title" id="about-title">{{t_about_title}}</h2>
-{{{about_paragraphs}}}
-        <p class="about-social">{{{social_links}}}</p>
-      </div>
-    </section>
-
-    <section class="quote" aria-labelledby="quote-title">
-      <h2 class="visually-hidden" id="quote-title">{{t_testimonial_title}}</h2>
-      <figure>
-        <blockquote><p>{{testimonial_quote}}</p></blockquote>
-        <figcaption><img src="{{root}}{{testimonial_logo}}" alt="" width="40" height="40" loading="lazy">{{testimonial_author}}</figcaption>
-      </figure>
-    </section>
-
-    <section class="catalog" id="catalog" aria-labelledby="catalog-title">
-      <h2 class="section-title" id="catalog-title">{{t_catalog_title}}</h2>
-      <p class="catalog-lead">{{catalog_lead}}</p>
-{{{catalog_intro}}}
-      <ul class="tiers">
-{{{catalog_tiers}}}
-      </ul>
-      <p class="catalog-outro">{{catalog_outro}}</p>
-      <a class="btn btn-primary" href="#contact">{{t_cta_quote}}</a>
-    </section>
-
-    <section class="faq" id="faq" aria-labelledby="faq-title">
-      <h2 class="section-title" id="faq-title">{{t_faq_title}}</h2>
-{{{faq_items}}}
-    </section>
-
-    <section class="contact" id="contact" aria-labelledby="contact-title">
-      <h2 class="section-title" id="contact-title">{{t_contact_title}}</h2>
-      <p class="contact-lead">{{t_contact_lead}} <a href="mailto:{{email}}">{{email}}</a></p>
-      <form class="contact-form" action="{{formspree}}" method="POST" novalidate>
-        <label>{{t_f_name}}<input type="text" name="name" autocomplete="name" required></label>
-        <label>{{t_f_email}}<input type="email" name="email" autocomplete="email" required></label>
-        <label class="full">{{t_f_message}}<textarea name="message" rows="6" required></textarea></label>
-        <div class="form-foot full">
-          <button class="btn btn-primary" type="submit">{{t_f_send}}</button>
-          <p class="form-status" role="status" aria-live="polite"></p>
-        </div>
-      </form>
-    </section>
+  <main id="main">
+{{{content}}}
   </main>
 
   <footer class="footer">
     <p class="footer-mark">{{brand}}</p>
+    <nav class="footer-nav" aria-label="{{t_footer_nav}}"><ul>
+{{{footer_nav}}}
+    </ul></nav>
     <p>{{location}}</p>
     <p><a href="mailto:{{email}}">{{email}}</a></p>
     <p class="footer-social">{{{social_links}}}</p>
-    <p class="footer-copy">© {{year}} DolmosMusic</p>
+    <p class="footer-copy">© {{year}} {{brand}}</p>
   </footer>
 
   <script>window.DM_I18N = {{{js_i18n}}};</script>
