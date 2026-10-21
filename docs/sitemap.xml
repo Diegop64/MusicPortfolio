@@ -2,16 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.dolmosmusic.com/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/" />
   </url>
   <url>
     <loc>https://www.dolmosmusic.com/es/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/game-music/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/game-music/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/musica-para-videojuegos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/game-music/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/es/musica-para-videojuegos/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/game-music/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/musica-para-videojuegos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/game-music/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/film-music/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/film-music/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/musica-para-cortometrajes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/film-music/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/es/musica-para-cortometrajes/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/film-music/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/musica-para-cortometrajes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/film-music/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/projects/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/projects/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/proyectos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/projects/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/es/proyectos/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/projects/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/proyectos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/projects/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/about/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/sobre-mi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/about/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/es/sobre-mi/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/sobre-mi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/about/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/guides/indie-game-music-cost/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/guides/indie-game-music-cost/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/guias/cuanto-cuesta-musica-videojuego/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/guides/indie-game-music-cost/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/es/guias/cuanto-cuesta-musica-videojuego/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/guides/indie-game-music-cost/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/guias/cuanto-cuesta-musica-videojuego/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/guides/indie-game-music-cost/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/guides/game-music-rights/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/guides/game-music-rights/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/guias/derechos-musica-videojuego/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/guides/game-music-rights/" />
+  </url>
+  <url>
+    <loc>https://www.dolmosmusic.com/es/guias/derechos-musica-videojuego/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dolmosmusic.com/guides/game-music-rights/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dolmosmusic.com/es/guias/derechos-musica-videojuego/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dolmosmusic.com/guides/game-music-rights/" />
   </url>
 </urlset>
