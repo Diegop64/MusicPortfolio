@@ -2,6 +2,7 @@
         <label>{{t_f_name}}<input type="text" name="name" autocomplete="name" required></label>
         <label>{{t_f_email}}<input type="email" name="email" autocomplete="email" required></label>
         <label class="full">{{t_f_message}}<textarea name="message" rows="6" required></textarea></label>
+        <div class="hp-field" aria-hidden="true"><label>Leave this field empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
         <input type="hidden" name="page_origin" value="{{page_origin}}">
         <div class="form-foot full">
           <button class="btn btn-primary" type="submit">{{t_f_send}}</button>

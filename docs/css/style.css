@@ -283,3 +283,6 @@ button { font: inherit; color: inherit; }
 .footer-nav ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 24px; margin: 0 0 18px; padding: 0; list-style: none; }
 .footer-nav a { color: var(--muted); }
 .footer-nav a:hover { color: var(--ink); }
+
+/* Trampa para bots (Formspree _gotcha): invisible para personas */
+.hp-field { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
